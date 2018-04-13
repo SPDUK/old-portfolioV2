@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+
+import Landing from './Landing';
+import HelloWorld from './HelloWorld';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <p> React App.</p>
+      <div>
+        <BrowserRouter>
+          <div>
+            <Route exact path="/" component={Landing} />
+            <Route exact path="/HelloWorld" component={HelloWorld} />
+          </div>
+        </BrowserRouter>
       </div>
     );
   }

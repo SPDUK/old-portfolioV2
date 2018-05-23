@@ -8,7 +8,6 @@ class HelloWorld extends Component {
         <p> Hello World </p>
         <Link to="/" className="button">
           <button>Back to landing</button>
-          hey!
         </Link>
       </div>
     );

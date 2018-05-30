@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  border-bottom: 1px solid black;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+  color: #212121; }
+  @media (min-width: 768px) {
+    .nav {
+      justify-content: space-around; } }
+  .nav-icon {
+    font-size: 2em;
+    margin-left: 15px;
+    line-height: 50px; }
+  @media (min-width: 768px) {
+    .nav-burger {
+      display: none !important; } }
+  .nav-menu {
+    padding: 7px;
+    display: none; }
+    @media (min-width: 768px) {
+      .nav-menu {
+        display: inline-block; } }

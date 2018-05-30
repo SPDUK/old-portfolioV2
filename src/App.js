@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import './App.css';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import ReactAux from './Components/hoc/ReactAux';
+import './styles/app.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>hello world</h1>
-      </div>
+      <ReactAux>
+        <CssBaseline />
+        <p> hi</p>
+      </ReactAux>
     );
   }
 }

@@ -1,0 +1,54 @@
+  // colors 
+
+$primary-color-dark:   #303F9F; // indigio (dark)
+$primary-color:        #3F51B5; // indigo
+$primary-color-light:  #C5CAE9; // lavander
+$primary-color-text:   #FFFFFF;  // white
+$primary-text-color:   #212121 ; //  dark grey / black
+$secondary-text-color: #757575;  //  gray
+$divider-color:        #BDBDBD ;  // light gray
+
+// breakpoints
+  @mixin breakpoint($class) {
+    @if $class==xs {
+      @media (max-width: 767px) {
+        @content;
+      }
+    }
+    @else if $class==sm {
+      @media (min-width: 768px) {
+        @content;
+      }
+    }
+    @else if $class==md {
+      @media (min-width: 992px) {
+        @content;
+      }
+    }
+    @else if $class==lg {
+      @media (min-width: 1200px) {
+        @content;
+      }
+    }
+    @else {
+      @warn "Breakpoint mixin supports: xs, sm, md, lg";
+    }
+  }
+
+  // absolute center
+  @mixin absolutecenter($axis: "both") {
+    position: absolute;
+    @if $axis=="y" {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    @if $axis=="x" {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    @if $axis=="both" {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }

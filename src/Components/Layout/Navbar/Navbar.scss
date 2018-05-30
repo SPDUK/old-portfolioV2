@@ -1,20 +1,27 @@
 @import '../../../styles/variables.scss';
 .nav{
-  display: flex;
   border-bottom: 1px solid black;
   height: 50px;
   width: 100%;
   justify-content: space-between;
   color: $primary-text-color;
+  display: flex;
   @include breakpoint(sm){
-    justify-content: space-around;
+    justify-content: center;
   }
   &-icon {
-    font-size: 2em;
-    margin-left: 15px;
-    line-height: 50px;
+    margin-top: 0px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 2.3em;
+    list-style-type: none;
+    font-weight: 700;
+    color: $primary-text-color;
   }
-  &-burger {
+  &-burger { 
+    display: flex;
+    justify-content: flex-end;
+    justify-self: flex-end;
     @include breakpoint(sm) {
       display: none !important;
     }
@@ -24,6 +31,7 @@
     display: none;
     @include breakpoint(sm) {
       display: inline-block;
+      margin-left: 300px;
     }
   }
 }

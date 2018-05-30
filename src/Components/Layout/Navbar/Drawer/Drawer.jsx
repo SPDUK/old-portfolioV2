@@ -1,23 +1,11 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core/styles';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import Button from '@material-ui/core/Button';
-import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
-
-const styles = {
-  list: {
-    width: 250
-  },
-  fullList: {
-    width: 'auto'
-  }
-};
 
 // TODO: add icons beside links
 // maybe style drawer
 
-class SwipeableTemporaryDrawer extends React.Component {
+class Drawer extends React.Component {
   render() {
     const { toggleDrawer } = this.props;
 
@@ -52,4 +40,4 @@ class SwipeableTemporaryDrawer extends React.Component {
   }
 }
 
-export default withStyles(styles)(SwipeableTemporaryDrawer);
+export default Drawer;

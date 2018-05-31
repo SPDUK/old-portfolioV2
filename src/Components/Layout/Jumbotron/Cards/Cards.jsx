@@ -6,6 +6,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import zIndex from '@material-ui/core/styles/zIndex';
+import Divider from '@material-ui/core/Divider';
 
 import './Cards.css';
 
@@ -15,6 +16,9 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     flexWrap: 'wrap'
+  },
+  divider: {
+    marginBottom: 20
   },
   firstCard: {
     minWidth: 290,
@@ -34,7 +38,8 @@ const styles = {
   },
   title: {
     marginBottom: 16,
-    fontSize: 14
+    textAlign: 'center',
+    fontWeight: 500
   },
   pos: {
     marginBottom: 12
@@ -59,7 +64,7 @@ const styles = {
       width: 500
     },
     secondCard: {
-      transform: 'translateX(-14px) scale(0.9)',
+      transform: 'translateX(-20px) scale(0.9)',
       zIndex: 200,
       height: 300,
       width: 500
@@ -75,23 +80,33 @@ function SimpleCard(props) {
     <div className={classes.cards}>
       <Card elevation="8" className={classes.firstCard}>
         <CardContent>
-          <Typography className={classes.title} color="textSecondary">
-            Word of the Day
+          <Typography
+            variant="headline"
+            className={classes.title}
+            color="secondary"
+          >
+            What I do
+          </Typography>
+          <Divider className={classes.divider} />
+          <Typography variant="headline" component="h2">
+            SCSS
           </Typography>
           <Typography variant="headline" component="h2">
-            be{bull}nev{bull}o{bull}lent
+            React
           </Typography>
-          <Typography className={classes.pos} color="textSecondary">
-            adjective
+          <Typography variant="headline" component="h2">
+            React
           </Typography>
-          <Typography component="p">
-            well meaning and kindly.<br />
-            {'"a benevolent smile"'}
+          <Typography variant="headline" component="h2">
+            React
+          </Typography>
+          <Typography variant="headline" component="h2">
+            React
+          </Typography>
+          <Typography variant="headline" component="h2">
+            React
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small">Learn More</Button>
-        </CardActions>
       </Card>
       <Card elevation="8" className={classes.secondCard}>
         <CardContent>

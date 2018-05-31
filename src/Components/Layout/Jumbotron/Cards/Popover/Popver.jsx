@@ -17,7 +17,7 @@ const styles = theme => ({
     pointerEvents: 'none'
   },
   poptext: {
-    fontSize: '0.9em',
+    fontSize: '1em',
     display: 'inline-block'
   },
   popperClose: {

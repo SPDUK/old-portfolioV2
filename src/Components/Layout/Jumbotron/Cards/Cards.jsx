@@ -26,7 +26,8 @@ const styles = {
     display: 'block'
   },
   headline: {
-    fontSize: 18
+    fontSize: 18,
+    marginBottom: 3
   },
   secondCard: {
     minWidth: 290,
@@ -43,7 +44,7 @@ const styles = {
   },
   title: {
     marginBottom: 16,
-    fontSize: 27,
+    fontSize: 22,
     fontWeight: 500,
     textAlign: 'center'
   },
@@ -73,7 +74,11 @@ const styles = {
       marginBottom: 30
     },
     headline: {
-      fontSize: 24
+      marginBottom: 5
+    },
+    title: {
+      marginBottom: 16,
+      fontSize: 28
     },
     secondCard: {
       transform: 'translateX(-20px) scale(0.9)',
@@ -116,7 +121,7 @@ function SimpleCard(props) {
             />
             <Popover
               popName="HTML5"
-              popInfo="I use HTML5 to structure my websites, and use HTML inside of React components too"
+              popInfo="I use HTML5 to structure my websites, and use HTML inside of React components too."
             />
           </Typography>
           <Typography
@@ -168,8 +173,11 @@ function SimpleCard(props) {
             className={classes.headline}
             variant="headline"
             component="h2"
-            style={{ display: 'flex' }}
+            style={{
+              display: 'flex'
+            }}
           >
+            {' '}
             <i
               style={{ fontSize: 24, marginRight: `30%` }}
               className="devicon-nodejs-plain colored"

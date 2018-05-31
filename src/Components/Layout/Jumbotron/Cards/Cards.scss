@@ -1,0 +1,9 @@
+.colored {
+  transition: 0.2s ease-in;
+  filter: grayscale(1);
+  &:hover {
+    filter: grayscale(0);
+    transition: 0.2s ease-in;
+    transform: scale(1.3);
+  }
+}

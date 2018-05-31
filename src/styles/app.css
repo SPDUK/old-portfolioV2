@@ -6,7 +6,6 @@ a,
 a:visited {
   list-style-type: none;
   text-decoration: none;
-  color: inherit;
 }
 
 .container {

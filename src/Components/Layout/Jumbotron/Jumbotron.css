@@ -2,7 +2,32 @@
   background: url("../../../media/images/tri01.svg") no-repeat;
   margin-top: -50px;
   height: 600px;
-  padding-top: 50px; }
+  padding-top: 100px;
+  color: #212121;
+  display: flex;
+  justify-content: center; }
   @media (min-width: 1200px) {
     .jumbo {
       background-size: 100% 600px; } }
+  .jumbo-text {
+    font-size: 0.70em; }
+    @media screen and (min-width: 650px) {
+      .jumbo-text {
+        font-size: 0.9em; } }
+    @media (min-width: 768px) {
+      .jumbo-text {
+        font-size: 1em; } }
+    @media (min-width: 992px) {
+      .jumbo-text {
+        font-size: 1.2em; } }
+    @media (min-width: 1200px) {
+      .jumbo-text {
+        font-size: 1.5em; } }
+    .jumbo-text a {
+      color: #3F51B5;
+      transition: 0.15s ease;
+      transform: translateY(0px); }
+      .jumbo-text a:hover {
+        color: #8591d5;
+        transition: 0.15s ease;
+        transform: translateY(-5px); }

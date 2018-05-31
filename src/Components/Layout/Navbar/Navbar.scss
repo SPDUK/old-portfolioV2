@@ -15,7 +15,14 @@
     margin-left: 10px;
     list-style-type: none;
     font-weight: 700;
-    color: $primary-text-color;
+    a {
+      color: $primary-text-color;
+      transition: 0.2s ease;
+      &:hover {
+        color: $primary-color;
+        transition: 0.2s ease;
+      }
+    }
     @include breakpoint(sm) {
       margin-left: 0px;
     }
@@ -29,6 +36,7 @@
       padding: 7px;
       margin-top: 7px !important;
       display: none !important;
+      font-size: 1.1em !important;
       @include breakpoint(sm) {
         display: inline-block !important;
       }

@@ -7,26 +7,17 @@
   color: $primary-text-color;
   display: flex;
   justify-content: center; // aligns the cards to hand over the edge slightly.
-  @media (min-width: 610px) {
-    background-size: 100% 450px;
-  }
-  @media (min-width: 650px) {
+  @media (min-width: 720px) {
     background-size: 100% 480px;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 990px) {
     background-size: 100% 490px;
   }
-  @media (min-width: 990px) {
-    background-size: 100% 500px;
-  }
-  @media (min-width: 1000px) {
-    background-size: 100% 570px;
+  @media (min-width: 1003px) {
+    background-size: 100% 540px;
   }
   @media (min-width: 1200px) {
-    background-size: 100% 590px;
-  }
-  @media (min-width: 1300px) {
-    background-size: 100% 610px;
+    background-size: 100% 580px;
   }
   &-text {
     font-size: 0.70em;

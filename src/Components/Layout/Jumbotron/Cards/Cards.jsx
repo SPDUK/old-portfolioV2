@@ -41,30 +41,19 @@ const styles = {
     color: 'white',
     textAlign: 'center'
   },
-  bullet: {
-    display: 'inline-block',
-    margin: '0 2px',
-    transform: 'scale(0.8)'
-  },
   title: {
     marginBottom: 16,
     fontSize: 22,
     fontWeight: 500,
     textAlign: 'center'
   },
-  pos: {
-    marginBottom: 12
-  },
   // styles for cards bigger than mobile screens
-  '@media (min-width: 614px)': {
-    cards: {
-      marginTop: 60
-    },
+  '@media (min-width: 720px)': {
     firstCard: {
       zIndex: 500
     },
     secondCard: {
-      transform: 'translateX(-14px) scale(0.9)',
+      transform: 'translateX(-20px) scale(0.9)',
       zIndex: 200
     }
   },
@@ -95,7 +84,6 @@ const styles = {
 
 function SimpleCard(props) {
   const { classes } = props;
-  const bull = <span className={classes.bullet}>•</span>;
 
   return (
     <div className={classes.cards}>

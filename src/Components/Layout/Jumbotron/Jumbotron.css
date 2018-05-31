@@ -6,27 +6,18 @@
   color: #212121;
   display: flex;
   justify-content: center; }
-  @media (min-width: 610px) {
-    .jumbo {
-      background-size: 100% 450px; } }
-  @media (min-width: 650px) {
+  @media (min-width: 720px) {
     .jumbo {
       background-size: 100% 480px; } }
-  @media (min-width: 768px) {
-    .jumbo {
-      background-size: 100% 490px; } }
   @media (min-width: 990px) {
     .jumbo {
-      background-size: 100% 500px; } }
-  @media (min-width: 1000px) {
+      background-size: 100% 490px; } }
+  @media (min-width: 1003px) {
     .jumbo {
-      background-size: 100% 570px; } }
+      background-size: 100% 540px; } }
   @media (min-width: 1200px) {
     .jumbo {
-      background-size: 100% 590px; } }
-  @media (min-width: 1300px) {
-    .jumbo {
-      background-size: 100% 610px; } }
+      background-size: 100% 580px; } }
   .jumbo-text {
     font-size: 0.70em; }
     @media screen and (min-width: 650px) {

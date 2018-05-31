@@ -5,7 +5,6 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import zIndex from '@material-ui/core/styles/zIndex';
 import Divider from '@material-ui/core/Divider';
 
 import './Cards.css';
@@ -23,11 +22,18 @@ const styles = {
   firstCard: {
     minWidth: 290,
     maxWidth: 400,
-    display: 'block'
+    height: 220,
+    display: 'block',
+    textAlign: 'center'
+  },
+  headline: {
+    fontSize: 18
   },
   secondCard: {
     minWidth: 290,
     maxWidth: 400,
+    height: 220,
+
     display: 'block',
     transform: 'scale(0.9)'
   },
@@ -38,7 +44,7 @@ const styles = {
   },
   title: {
     marginBottom: 16,
-    textAlign: 'center',
+    fontSize: 24,
     fontWeight: 500
   },
   pos: {
@@ -60,13 +66,16 @@ const styles = {
   '@media (min-width: 1000px)': {
     firstCard: {
       zIndex: 500,
-      height: 300,
+      height: 280,
       width: 500
+    },
+    headline: {
+      fontSize: 24
     },
     secondCard: {
       transform: 'translateX(-20px) scale(0.9)',
       zIndex: 200,
-      height: 300,
+      height: 280,
       width: 500
     }
   }
@@ -88,22 +97,39 @@ function SimpleCard(props) {
             What I do
           </Typography>
           <Divider className={classes.divider} />
-          <Typography variant="headline" component="h2">
-            SCSS
-          </Typography>
-          <Typography variant="headline" component="h2">
+          <Typography
+            className={classes.headline}
+            variant="headline"
+            component="h2"
+          >
             React
           </Typography>
-          <Typography variant="headline" component="h2">
+          <Typography
+            className={classes.headline}
+            variant="headline"
+            component="h2"
+          >
             React
           </Typography>
-          <Typography variant="headline" component="h2">
+          <Typography
+            className={classes.headline}
+            variant="headline"
+            component="h2"
+          >
             React
           </Typography>
-          <Typography variant="headline" component="h2">
+          <Typography
+            className={classes.headline}
+            variant="headline"
+            component="h2"
+          >
             React
           </Typography>
-          <Typography variant="headline" component="h2">
+          <Typography
+            className={classes.headline}
+            variant="headline"
+            component="h2"
+          >
             React
           </Typography>
         </CardContent>

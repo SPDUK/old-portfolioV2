@@ -20,13 +20,13 @@
       background-size: 100% 500px; } }
   @media (min-width: 1000px) {
     .jumbo {
-      background-size: 100% 590px; } }
+      background-size: 100% 570px; } }
   @media (min-width: 1200px) {
     .jumbo {
-      background-size: 100% 620px; } }
+      background-size: 100% 590px; } }
   @media (min-width: 1300px) {
     .jumbo {
-      background-size: 100% 630px; } }
+      background-size: 100% 610px; } }
   .jumbo-text {
     font-size: 0.70em; }
     @media screen and (min-width: 650px) {

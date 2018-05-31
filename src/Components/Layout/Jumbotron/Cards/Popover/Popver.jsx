@@ -23,8 +23,7 @@ const styles = theme => ({
 
 class MouseOverPopover extends React.Component {
   state = {
-    anchorEl: null,
-    popperOpen: false
+    anchorEl: null
   };
 
   handlePopoverOpen = event => {
@@ -35,17 +34,9 @@ class MouseOverPopover extends React.Component {
     this.setState({ anchorEl: null });
   };
 
-  handlePopperOpen = () => {
-    this.setState({ popperOpen: true });
-  };
-
-  handlePopperClose = () => {
-    this.setState({ popperOpen: false });
-  };
-
   render() {
     const { classes } = this.props;
-    const { anchorEl, popperOpen } = this.state;
+    const { anchorEl } = this.state;
     const open = !!anchorEl;
 
     return (

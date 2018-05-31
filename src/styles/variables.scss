@@ -1,14 +1,12 @@
   // colors 
-
-$primary-color-dark:   #303F9F; // indigio (dark)
-$primary-color:        #3F51B5; // indigo
-$primary-color-light:  #C5CAE9; // lavander
-$primary-color-text:   #FFFFFF;  // white
-$primary-text-color:   #212121 ; //  dark grey / black
-$secondary-text-color: #757575;  //  gray
-$divider-color:        #BDBDBD ;  // light gray
-
-// breakpoints
+  $primary-color-dark: #303F9F; // indigio (dark)
+  $primary-color: #3F51B5; // indigo
+  $primary-color-light: #C5CAE9; // lavander
+  $primary-color-text: #fafafa; // white
+  $primary-text-color: #212121; //  dark grey / black
+  $secondary-text-color: #757575; //  gray
+  $divider-color: #BDBDBD; // light gray
+  // breakpoints
   @mixin breakpoint($class) {
     @if $class==xs {
       @media (max-width: 767px) {
@@ -33,9 +31,7 @@ $divider-color:        #BDBDBD ;  // light gray
     @else {
       @warn "Breakpoint mixin supports: xs, sm, md, lg";
     }
-  }
-
-  // absolute center
+  } // absolute center
   @mixin absolutecenter($axis: "both") {
     position: absolute;
     @if $axis=="y" {

@@ -9,6 +9,8 @@ import Divider from '@material-ui/core/Divider';
 import Popover from './Popover/Popver';
 import './Cards.css';
 
+// TODO: a bit of a mess? maybe refactor later.
+
 const styles = {
   cards: {
     marginTop: 60,
@@ -33,9 +35,11 @@ const styles = {
     minWidth: 290,
     maxWidth: 400,
     height: 220,
-
     display: 'block',
-    transform: 'scale(0.9)'
+    transform: 'scale(0.9)',
+    backgroundColor: '#3F51B5',
+    color: 'white',
+    textAlign: 'center'
   },
   bullet: {
     display: 'inline-block',
@@ -67,7 +71,7 @@ const styles = {
   '@media (min-width: 1000px)': {
     firstCard: {
       zIndex: 500,
-      height: 280,
+      height: 270,
       width: 500
     },
     divider: {
@@ -83,7 +87,7 @@ const styles = {
     secondCard: {
       transform: 'translateX(-20px) scale(0.9)',
       zIndex: 200,
-      height: 280,
+      height: 255,
       width: 500
     }
   }
@@ -115,7 +119,7 @@ function SimpleCard(props) {
               <i
                 style={{
                   fontSize: 24,
-                  marginRight: `30%`,
+                  marginRight: `33%`,
                   display: 'inline-block'
                 }}
                 className="devicon-html5-plain colored"
@@ -134,7 +138,7 @@ function SimpleCard(props) {
             style={{ display: 'flex' }}
           >
             <i
-              style={{ fontSize: 24, marginRight: `30%` }}
+              style={{ fontSize: 24, marginRight: `33%` }}
               className="devicon-sass-original colored"
             />
             <Popover
@@ -149,7 +153,7 @@ function SimpleCard(props) {
             style={{ display: 'flex' }}
           >
             <i
-              style={{ fontSize: 24, marginRight: `30%` }}
+              style={{ fontSize: 24, marginRight: `33%` }}
               className="devicon-javascript-plain colored"
             />
             <Popover
@@ -164,7 +168,7 @@ function SimpleCard(props) {
             style={{ display: 'flex' }}
           >
             <i
-              style={{ fontSize: 24, marginRight: `30%` }}
+              style={{ fontSize: 24, marginRight: `33%` }}
               className="devicon-react-original colored"
             />
             <Popover
@@ -182,7 +186,7 @@ function SimpleCard(props) {
           >
             {' '}
             <i
-              style={{ fontSize: 24, marginRight: `30%` }}
+              style={{ fontSize: 24, marginRight: `33%` }}
               className="devicon-nodejs-plain colored"
             />
             <Popover
@@ -194,22 +198,25 @@ function SimpleCard(props) {
       </Card>
       <Card elevation="8" className={classes.secondCard}>
         <CardContent>
-          <Typography className={classes.title} color="textSecondary">
-            Word of the Day
+          <Typography color="primary" className={classes.title}>
+            Looking for a website?
           </Typography>
-          <Typography variant="headline" component="h2">
-            be{bull}nev{bull}o{bull}lent
-          </Typography>
-          <Typography className={classes.pos} color="textSecondary">
-            adjective
-          </Typography>
-          <Typography component="p">
-            well meaning and kindly.<br />
-            {'"a benevolent smile"'}
+          <Divider className={classes.divider} />
+          <Typography color="primary" variant="subheading" component="h3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
+            inventore hic nisi consectetur sapiente cum architecto atque.
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small">Learn More</Button>
+        <CardActions style={{ display: 'flex', justifyContent: 'flex-end' }}>
+          <Button
+            id="card-button"
+            variant="raised"
+            color="primary"
+            className={classes.button}
+          >
+            Contact Me
+            <i className="fas fa-arrow-right card-arrow" />
+          </Button>
         </CardActions>
       </Card>
     </div>

@@ -6,6 +6,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
+import Popover from './Popover/Popver';
 import './Cards.css';
 
 const styles = {
@@ -42,7 +43,7 @@ const styles = {
   },
   title: {
     marginBottom: 16,
-    fontSize: 24,
+    fontSize: 27,
     fontWeight: 500,
     textAlign: 'center'
   },
@@ -103,56 +104,80 @@ function SimpleCard(props) {
             className={classes.headline}
             variant="headline"
             component="h2"
+            style={{ display: 'flex' }}
           >
             <i
-              style={{ fontSize: 24, marginRight: `30%` }}
+              style={{
+                fontSize: 24,
+                marginRight: `30%`,
+                display: 'inline-block'
+              }}
               className="devicon-html5-plain colored"
             />
-            <span>HTML5</span>
+            <Popover
+              popName="HTML5"
+              popInfo="I use HTML5 to structure my websites, and use HTML inside of React components too"
+            />
           </Typography>
           <Typography
             className={classes.headline}
             variant="headline"
             component="h2"
+            style={{ display: 'flex' }}
           >
             <i
               style={{ fontSize: 24, marginRight: `30%` }}
               className="devicon-sass-original colored"
             />
-            <span>CSS & Sass</span>
+            <Popover
+              popName="Sass"
+              popInfo="I use Sass to take advantage of variables and CSS script functions, as well as basic CSS."
+            />
           </Typography>
           <Typography
             className={classes.headline}
             variant="headline"
             component="h2"
+            style={{ display: 'flex' }}
           >
             <i
               style={{ fontSize: 24, marginRight: `30%` }}
               className="devicon-javascript-plain colored"
             />
-            <span>JavaScript</span>
+            <Popover
+              popName="JavaScript"
+              popInfo="I use JavaScipt to do many things, from simple things like adding a class when a button is clicked to intermediate level algorithms."
+            />
           </Typography>
           <Typography
             className={classes.headline}
             variant="headline"
             component="h2"
+            style={{ display: 'flex' }}
           >
             <i
               style={{ fontSize: 24, marginRight: `30%` }}
               className="devicon-react-original colored"
             />
-            <span>React</span>
+            <Popover
+              popName="React"
+              popInfo="I use React to Compose the front-end of my apps, resulting in a fast website that is also easily scalable."
+            />
           </Typography>
           <Typography
             className={classes.headline}
             variant="headline"
             component="h2"
+            style={{ display: 'flex' }}
           >
             <i
               style={{ fontSize: 24, marginRight: `30%` }}
               className="devicon-nodejs-plain colored"
             />
-            <span>Node.js</span>
+            <Popover
+              popName="Node.js"
+              popInfo="I use Node.js to do everything from simply installing NPM modules to an entire back-end with a database."
+            />
           </Typography>
         </CardContent>
       </Card>

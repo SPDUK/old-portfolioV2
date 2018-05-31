@@ -1,20 +1,38 @@
 .jumbo {
   background: url("../../../media/images/tri01.svg") no-repeat;
-  background-size: auto 850px;
+  background-size: auto 750px;
   margin-top: -50px;
-  height: 900px;
   padding-top: 100px;
   color: #212121;
   display: flex;
   justify-content: center; }
+  @media (min-width: 610px) {
+    .jumbo {
+      background-size: 100% 450px; } }
+  @media (min-width: 650px) {
+    .jumbo {
+      background-size: 100% 480px; } }
   @media (min-width: 768px) {
     .jumbo {
-      background-size: 100% 600px; } }
+      background-size: 100% 490px; } }
+  @media (min-width: 990px) {
+    .jumbo {
+      background-size: 100% 500px; } }
+  @media (min-width: 1000px) {
+    .jumbo {
+      background-size: 100% 590px; } }
+  @media (min-width: 1200px) {
+    .jumbo {
+      background-size: 100% 620px; } }
+  @media (min-width: 1300px) {
+    .jumbo {
+      background-size: 100% 630px; } }
   .jumbo-text {
     font-size: 0.70em; }
     @media screen and (min-width: 650px) {
       .jumbo-text {
-        font-size: 0.9em; } }
+        font-size: 0.9em;
+        text-align: center; } }
     @media (min-width: 768px) {
       .jumbo-text {
         font-size: 1em; } }

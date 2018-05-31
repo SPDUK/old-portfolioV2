@@ -23,7 +23,7 @@ const styles = {
   },
   secondCard: {
     minWidth: 290,
-    maxWidth: 300,
+    maxWidth: 400,
     display: 'block',
     transform: 'scale(0.9)'
   },
@@ -41,16 +41,28 @@ const styles = {
   },
   // styles for cards bigger than mobile screens
   '@media (min-width: 614px)': {
-    card: {
-      maxWidth: 700
+    cards: {
+      marginTop: 60
     },
     firstCard: {
       zIndex: 500
     },
     secondCard: {
       transform: 'translateX(-14px) scale(0.9)',
-
       zIndex: 200
+    }
+  },
+  '@media (min-width: 1000px)': {
+    firstCard: {
+      zIndex: 500,
+      height: 300,
+      width: 500
+    },
+    secondCard: {
+      transform: 'translateX(-14px) scale(0.9)',
+      zIndex: 200,
+      height: 300,
+      width: 500
     }
   }
 };
@@ -61,7 +73,7 @@ function SimpleCard(props) {
 
   return (
     <div className={classes.cards}>
-      <Card elevation="4" className={classes.firstCard}>
+      <Card elevation="8" className={classes.firstCard}>
         <CardContent>
           <Typography className={classes.title} color="textSecondary">
             Word of the Day
@@ -81,7 +93,7 @@ function SimpleCard(props) {
           <Button size="small">Learn More</Button>
         </CardActions>
       </Card>
-      <Card elevation="4" className={classes.secondCard}>
+      <Card elevation="8" className={classes.secondCard}>
         <CardContent>
           <Typography className={classes.title} color="textSecondary">
             Word of the Day

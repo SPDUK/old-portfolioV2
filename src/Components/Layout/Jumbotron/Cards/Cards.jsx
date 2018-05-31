@@ -53,7 +53,7 @@ const styles = {
       zIndex: 500
     },
     secondCard: {
-      transform: 'translateX(-20px) scale(0.9)',
+      transform: 'translateX(-40px) scale(0.9)',
       zIndex: 200
     }
   },
@@ -77,7 +77,7 @@ const styles = {
       transform: 'translateX(-20px) scale(0.9)',
       zIndex: 200,
       height: 255,
-      width: 500
+      width: 370
     }
   }
 };
@@ -92,7 +92,7 @@ function SimpleCard(props) {
           <Typography
             variant="headline"
             className={classes.title}
-            color="secondary"
+            color="primaryText"
           >
             What I do
           </Typography>
@@ -187,7 +187,7 @@ function SimpleCard(props) {
       <Card elevation="8" className={classes.secondCard}>
         <CardContent>
           <Typography color="primary" className={classes.title}>
-            Looking for a website?
+            Who am I?
           </Typography>
           <Divider className={classes.divider} />
           <Typography color="primary" variant="subheading" component="h3">

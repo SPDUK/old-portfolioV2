@@ -1,13 +1,9 @@
 /* eslint-disable jsx-a11y/mouse-events-have-key-events */
 
 import React from 'react';
-import PropTypes from 'prop-types';
 import Popover from '@material-ui/core/Popover';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
-import Grow from '@material-ui/core/Grow';
-import Paper from '@material-ui/core/Paper';
-import { Manager, Target, Popper } from 'react-popper';
 
 const styles = theme => ({
   paper: {
@@ -85,9 +81,5 @@ class MouseOverPopover extends React.Component {
     );
   }
 }
-
-MouseOverPopover.propTypes = {
-  classes: PropTypes.object.isRequired
-};
 
 export default withStyles(styles)(MouseOverPopover);

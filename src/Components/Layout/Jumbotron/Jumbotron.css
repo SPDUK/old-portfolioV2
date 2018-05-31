@@ -1,0 +1,8 @@
+.jumbo {
+  background: url("../../../media/images/tri01.svg") no-repeat;
+  margin-top: -50px;
+  height: 600px;
+  padding-top: 50px; }
+  @media (min-width: 1200px) {
+    .jumbo {
+      background-size: 100% 600px; } }

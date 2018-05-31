@@ -1,0 +1,10 @@
+@import '../../../styles/variables.scss';
+.jumbo {
+  background: url('../../../media/images/tri01.svg') no-repeat;
+  margin-top: -50px;
+  height: 600px;
+  padding-top: 50px;
+  @include breakpoint(lg) {
+    background-size: 100% 600px;
+  }
+}

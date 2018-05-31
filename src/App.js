@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Navbar from './Components/Layout/Navbar/Navbar';
+import Jumbotron from './Components/Layout/Jumbotron/Jumbotron';
+
 import './styles/app.css';
 
+// primary = monochrome - secondary - indigo
 const theme = createMuiTheme({
   palette: {
     primary: {
@@ -27,6 +30,7 @@ class App extends Component {
       <MuiThemeProvider theme={theme}>
         <CssBaseline />
         <Navbar />
+        <Jumbotron />
       </MuiThemeProvider>
     );
   }

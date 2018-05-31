@@ -13,13 +13,11 @@ const styles = {
     paddingTop: '56.25%' // 16:9
   },
   cardgutter: {
-    backgroundColor: '#fafafa',
     textAlign: 'center'
   },
   cardbutton: {
     display: 'flex',
-    justifyContent: 'flex-end',
-    backgroundColor: '#fafafa'
+    justifyContent: 'flex-end'
   }
 };
 
@@ -40,8 +38,13 @@ function Featured(props) {
         </CardContent>
         <CardActions className={classes.cardbutton}>
           <a href={link}>
-            <Button size="medium" variant="secondary" color="primaryText">
-              Learn More
+            <Button
+              size="medium"
+              variant="secondary"
+              color="primaryText"
+              className="card-button"
+            >
+              Learn More <i className="fas fa-arrow-right card-arrow" />
             </Button>
           </a>
         </CardActions>

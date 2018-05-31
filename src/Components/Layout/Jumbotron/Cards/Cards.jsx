@@ -6,7 +6,6 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
-
 import './Cards.css';
 
 const styles = {
@@ -14,11 +13,10 @@ const styles = {
     marginTop: 60,
     display: 'flex',
     justifyContent: 'center',
-    flexWrap: 'wrap',
-    textAlign: 'center'
+    flexWrap: 'wrap'
   },
   divider: {
-    marginBottom: 20
+    marginBottom: 10
   },
   firstCard: {
     minWidth: 290,
@@ -70,6 +68,9 @@ const styles = {
       height: 280,
       width: 500
     },
+    divider: {
+      marginBottom: 30
+    },
     headline: {
       fontSize: 24
     },
@@ -104,54 +105,54 @@ function SimpleCard(props) {
             component="h2"
           >
             <i
-              style={{ fontSize: 28, marginRight: 10 }}
-              className="devicon-react-original"
+              style={{ fontSize: 24, marginRight: `30%` }}
+              className="devicon-html5-plain colored"
             />
-            <span>React</span>
-          </Typography>{' '}
+            <span>HTML5</span>
+          </Typography>
           <Typography
             className={classes.headline}
             variant="headline"
             component="h2"
           >
             <i
-              style={{ fontSize: 28, marginRight: 10 }}
-              className="devicon-react-original"
+              style={{ fontSize: 24, marginRight: `30%` }}
+              className="devicon-sass-original colored"
             />
-            <span>React</span>
-          </Typography>{' '}
+            <span>CSS & Sass</span>
+          </Typography>
           <Typography
             className={classes.headline}
             variant="headline"
             component="h2"
           >
             <i
-              style={{ fontSize: 28, marginRight: 10 }}
-              className="devicon-react-original"
+              style={{ fontSize: 24, marginRight: `30%` }}
+              className="devicon-javascript-plain colored"
             />
-            <span>React</span>
-          </Typography>{' '}
+            <span>JavaScript</span>
+          </Typography>
           <Typography
             className={classes.headline}
             variant="headline"
             component="h2"
           >
             <i
-              style={{ fontSize: 28, marginRight: 10 }}
-              className="devicon-react-original"
+              style={{ fontSize: 24, marginRight: `30%` }}
+              className="devicon-react-original colored"
             />
             <span>React</span>
-          </Typography>{' '}
+          </Typography>
           <Typography
             className={classes.headline}
             variant="headline"
             component="h2"
           >
             <i
-              style={{ fontSize: 28, marginRight: 10 }}
-              className="devicon-react-original"
+              style={{ fontSize: 24, marginRight: `30%` }}
+              className="devicon-nodejs-plain colored"
             />
-            <span>React</span>
+            <span>Node.js</span>
           </Typography>
         </CardContent>
       </Card>

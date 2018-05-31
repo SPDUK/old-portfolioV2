@@ -105,25 +105,28 @@ function SimpleCard(props) {
             What I do
           </Typography>
           <Divider className={classes.divider} />
-          <Typography
-            className={classes.headline}
-            variant="headline"
-            component="h2"
-            style={{ display: 'flex' }}
-          >
-            <i
-              style={{
-                fontSize: 24,
-                marginRight: `30%`,
-                display: 'inline-block'
-              }}
-              className="devicon-html5-plain colored"
-            />
-            <Popover
-              popName="HTML5"
-              popInfo="I use HTML5 to structure my websites, and use HTML inside of React components too."
-            />
-          </Typography>
+          <div className="card-item">
+            <Typography
+              className={classes.headline}
+              variant="headline"
+              component="h2"
+              style={{ display: 'flex' }}
+            >
+              <i
+                style={{
+                  fontSize: 24,
+                  marginRight: `30%`,
+                  display: 'inline-block'
+                }}
+                className="devicon-html5-plain colored"
+              />
+              <Popover
+                popName="HTML5"
+                popInfo="I use HTML5 to structure my websites, and use HTML inside of React components too."
+              />
+            </Typography>
+          </div>
+
           <Typography
             className={classes.headline}
             variant="headline"

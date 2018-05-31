@@ -1,8 +1,8 @@
 .colored {
   transition: 0.2s ease-in;
-  filter: grayscale(1);
+  filter: saturate(0%) brightness(10%);
   &:hover {
-    filter: grayscale(0);
+    filter: saturate(100%) brightness(100%);
     transition: 0.2s ease-in;
     transform: scale(1.3);
   }

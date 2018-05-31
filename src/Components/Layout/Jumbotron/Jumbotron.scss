@@ -6,7 +6,7 @@
   padding-top: 100px;
   color: $primary-text-color;
   display: flex;
-  justify-content: center;
+  justify-content: center; // aligns the cards to hand over the edge slightly.
   @media (min-width: 610px) {
     background-size: 100% 450px;
   }

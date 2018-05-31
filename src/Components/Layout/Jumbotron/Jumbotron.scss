@@ -1,13 +1,14 @@
 @import '../../../styles/variables.scss';
 .jumbo {
   background: url('../../../media/images/tri01.svg') no-repeat;
+  background-size: auto 850px;
   margin-top: -50px;
-  height: 600px;
+  height: 900px;
   padding-top: 100px;
   color: $primary-text-color;
   display: flex;
   justify-content: center;
-  @include breakpoint(lg) {
+  @include breakpoint(sm) {
     background-size: 100% 600px;
   }
   &-text {
@@ -34,5 +35,9 @@
         transform: translateY(-5px);
       }
     }
+  }
+  &-cards {
+    display: flex;
+    justify-content: center;
   }
 }

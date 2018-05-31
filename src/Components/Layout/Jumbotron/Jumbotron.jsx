@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Cards from './Cards/Cards';
 import './Jumbotron.css';
 
 class Jumbotron extends Component {
@@ -13,6 +13,9 @@ class Jumbotron extends Component {
               <a href="https://github.com/SPDUK">Developer</a> Currently living
               in Peterborough, England
             </h1>
+          </div>
+          <div className="jumbo-cards">
+            <Cards />
           </div>
         </div>
       </div>

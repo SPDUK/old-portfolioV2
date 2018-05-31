@@ -1,12 +1,13 @@
 .jumbo {
   background: url("../../../media/images/tri01.svg") no-repeat;
+  background-size: auto 850px;
   margin-top: -50px;
-  height: 600px;
+  height: 900px;
   padding-top: 100px;
   color: #212121;
   display: flex;
   justify-content: center; }
-  @media (min-width: 1200px) {
+  @media (min-width: 768px) {
     .jumbo {
       background-size: 100% 600px; } }
   .jumbo-text {
@@ -31,3 +32,6 @@
         color: #8591d5;
         transition: 0.15s ease;
         transform: translateY(-5px); }
+  .jumbo-cards {
+    display: flex;
+    justify-content: center; }

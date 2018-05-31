@@ -1,0 +1,10 @@
+.featured {
+  margin-top: 150px;
+  height: 600px;
+  &-gutters {
+    padding: 0px 20px;
+    @media (min-width: 768px) {
+      padding: 0px 50px;
+    }
+  }
+}

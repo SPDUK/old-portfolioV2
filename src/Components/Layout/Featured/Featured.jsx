@@ -16,7 +16,7 @@ function Featured(props) {
   const { classes } = props;
   return (
     <div className="featured">
-      <div className="featured-gutters">
+      <div className="container">
         <h1>Featured Projects</h1>
         <Grid className={classes.root} container spacing={24}>
           <Grid item md={6} xs={12}>

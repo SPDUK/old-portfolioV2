@@ -4,6 +4,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Navbar from './Components/Layout/Navbar/Navbar';
 import Jumbotron from './Components/Layout/Jumbotron/Jumbotron';
 import Featured from './Components/Layout/Featured/Featured';
+import Learned from './Components/Layout/Learned/Learned';
 
 import './styles/app.css';
 
@@ -34,6 +35,7 @@ class App extends Component {
         <Navbar />
         <Jumbotron />
         <Featured />
+        <Learned />
       </MuiThemeProvider>
     );
   }

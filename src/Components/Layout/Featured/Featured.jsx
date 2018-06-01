@@ -21,14 +21,14 @@ function Featured(props) {
         <Grid className={classes.root} container spacing={24}>
           <Grid item md={6} xs={12}>
             <FeaturedProject
-              image="http://res.cloudinary.com/dmjolhdaq/image/upload/v1527838905/dgdmac.jpg"
+              image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1527838905/dgdmac.jpg"
               title="Dance Gavin Dance"
               link="https://spduk.github.io/dgd/"
             />
           </Grid>
           <Grid item md={6} xs={12}>
             <FeaturedProject
-              image="http://res.cloudinary.com/dmjolhdaq/image/upload/v1527838893/tradingpostmac.jpg"
+              image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1527838893/tradingpostmac.jpg"
               title="Trading Post"
               link="https://spduk.github.io/tradingpost/"
             />

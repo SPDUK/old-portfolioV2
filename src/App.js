@@ -5,6 +5,7 @@ import Navbar from './Components/Layout/Navbar/Navbar';
 import Jumbotron from './Components/Layout/Jumbotron/Jumbotron';
 import Featured from './Components/Layout/Featured/Featured';
 import Learned from './Components/Layout/Learned/Learned';
+import Footer from './Components/Layout/Footer/Footer';
 
 import './styles/app.css';
 
@@ -36,6 +37,7 @@ class App extends Component {
         <Jumbotron />
         <Featured />
         <Learned />
+        <Footer />
       </MuiThemeProvider>
     );
   }

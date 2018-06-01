@@ -1,0 +1,26 @@
+@import '../../../styles/variables.scss';
+.footer {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  &-links {
+    display: flex;
+    justify-content: flex-start;
+    a {
+      transition: 0.2s ease-in;
+      margin-right: 20px;
+      color: black;
+      &:hover {
+        transition: 0.2s ease-in;
+        color: $primary-color;
+      }
+    }
+  }
+  &-title-link {
+    transition: 0.2s ease-in;
+    color: $primary-color;
+    &:hover {
+      transition: 0.2s ease-in;
+      color: lighten($color: $primary-color, $amount: 20);
+    }
+  }
+}

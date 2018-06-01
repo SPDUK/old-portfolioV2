@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Typography } from '@material-ui/core';
+import { Button } from '@material-ui/core';
 import LearnedItem from './LearnedItem/LearnedItem';
 
 class Learned extends Component {
@@ -18,16 +18,16 @@ class Learned extends Component {
             link="https://github.com/SPDUK/webdevbootcamp"
           />
           <LearnedItem
-            title="Web Developer Bootcamp"
-            skills="HTML, CSS, JavaScript"
+            title="Git a Web Developer Job"
+            skills="Sass, JavaScript, Gulp"
             date="Nov 2017"
-            link="https://github.com/SPDUK/webdevbootcamp"
+            link="https://github.com/SPDUK/travel-site"
           />
           <LearnedItem
-            title="Web Developer Bootcamp"
-            skills="HTML, CSS, JavaScript"
-            date="Nov 2017"
-            link="https://github.com/SPDUK/webdevbootcamp"
+            title="React for Beginners"
+            skills="React, Firebase"
+            date="Feb 2018"
+            link="https://github.com/SPDUK/store-app"
           />
           <LearnedItem
             title="Web Developer Bootcamp"

@@ -1,6 +1,7 @@
 import React from 'react';
-import { Typography, Button } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
 import Divider from '@material-ui/core/Divider';
 import ReactAux from '../../../hoc/ReactAux';
 
@@ -9,17 +10,17 @@ import './LearnedItem.css';
 const styles = {
   root: {
     marginTop: 25,
-    marginBottom: 5,
-    marginLeft: 7
+    marginBottom: 5
   },
 
   '@media (min-width: 600px)': {
     root: {
-      marginTop: 45,
-      marginLeft: 0,
-      marginBottom: 1,
-      display: 'flex',
-      justifyContent: 'space-between'
+      marginTop: 30,
+      marginBottom: 5,
+      textAlign: 'center'
+    },
+    title: {
+      textAlign: 'left'
     }
   }
 };
@@ -32,21 +33,33 @@ function LearnedItem(props) {
   return (
     <ReactAux>
       <div className={classes.root}>
-        <Typography variant="title">{title}</Typography>
-        <Typography variant="subheading">{skills}</Typography>
-        <Typography variant="subheading">{date}</Typography>
-        <Typography
-          className="learneditem-button"
-          style={{ cursor: 'pointer' }}
-          variant="button"
-          onClick={openLearnedLink}
-        >
-          <strong>
-            <a style={{ color: 'black' }} href={link}>
-              Code
-            </a>
-          </strong>
-        </Typography>
+        <Grid container spacing={20}>
+          <Grid item xs={12} sm={4}>
+            <Typography className={classes.title} variant="title">
+              {title}
+            </Typography>
+          </Grid>
+          <Grid item xs={12} sm={3}>
+            <Typography variant="subheading">{skills}</Typography>
+          </Grid>
+          <Grid item xs={12} sm={3}>
+            <Typography variant="subheading">{date}</Typography>
+          </Grid>
+          <Grid item xs={12} sm={2}>
+            <Typography
+              className="learneditem-button"
+              style={{ cursor: 'pointer' }}
+              variant="button"
+              onClick={openLearnedLink}
+            >
+              <strong>
+                <a style={{ color: 'black' }} href={link}>
+                  Code
+                </a>
+              </strong>
+            </Typography>
+          </Grid>
+        </Grid>
       </div>
       <Divider light />
     </ReactAux>

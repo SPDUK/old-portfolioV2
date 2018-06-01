@@ -41,7 +41,7 @@ class Learned extends Component {
         <div className="container">
           <h1>What I've Learned</h1>
           <Button onClick={showFrontEnd}>Front-End</Button>
-          <Button onClick={showFullStack}>Back-End</Button>
+          <Button onClick={showFullStack}>Full-Stack</Button>
           <Button onClick={showAllStacks}>Show All</Button>
 
           {this.state.showFullStack ? (

@@ -26,11 +26,7 @@ function Featured(props) {
   return (
     <div>
       <Card className={classes.card}>
-        <CardMedia
-          className={classes.media}
-          image={image}
-          title="Contemplative Reptile"
-        />
+        <CardMedia className={classes.media} image={image} title={title} />
         <CardContent className={classes.cardgutter}>
           <Typography gutterBottom variant="headline" component="h2">
             {title}

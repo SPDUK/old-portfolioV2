@@ -15,36 +15,22 @@ const styles = theme => ({
 function Featured(props) {
   const { classes } = props;
   return (
-    <div className="featured container">
-      <h1>Featured Projects</h1>
+    <div className="featured">
       <div className="featured-gutters">
+        <h1>Featured Projects</h1>
         <Grid className={classes.root} container spacing={24}>
           <Grid item md={6} xs={12}>
             <FeaturedProject
-              image="http://res.cloudinary.com/dmjolhdaq/image/upload/v1527779355/Portfolio/imacpngg.png"
-              title="Coming soon"
-              link="https://www.google.com"
+              image="http://res.cloudinary.com/dmjolhdaq/image/upload/v1527838905/dgdmac.jpg"
+              title="Dance Gavin Dance"
+              link="https://spduk.github.io/dgd/"
             />
           </Grid>
           <Grid item md={6} xs={12}>
             <FeaturedProject
-              image="http://res.cloudinary.com/dmjolhdaq/image/upload/v1527779355/Portfolio/imacpngg.png"
-              title="Coming soon"
-              link="https://www.google.com"
-            />
-          </Grid>
-          <Grid item md={6} xs={12}>
-            <FeaturedProject
-              image="http://res.cloudinary.com/dmjolhdaq/image/upload/v1527779355/Portfolio/imacpngg.png"
-              title="Coming soon"
-              link="https://www.google.com"
-            />
-          </Grid>
-          <Grid item md={6} xs={12}>
-            <FeaturedProject
-              image="http://res.cloudinary.com/dmjolhdaq/image/upload/v1527779355/Portfolio/imacpngg.png"
-              title="Coming soon"
-              link="https://www.google.com"
+              image="http://res.cloudinary.com/dmjolhdaq/image/upload/v1527838893/tradingpostmac.jpg"
+              title="Trading Post"
+              link="https://spduk.github.io/tradingpost/"
             />
           </Grid>
         </Grid>

@@ -187,12 +187,16 @@ function SimpleCard(props) {
       <Card elevation="8" className={classes.secondCard}>
         <CardContent>
           <Typography color="primary" className={classes.title}>
-            Who am I?
+            Who I am
           </Typography>
           <Divider className={classes.divider} />
-          <Typography color="primary" variant="subheading" component="h3">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
-            inventore hic nisi consectetur sapiente cum architecto atque.
+          <Typography
+            style={{ textAlign: 'center' }}
+            color="primary"
+            variant="subheading"
+          >
+            I am a 24 year-old self-taught React Developer, I have been learning
+            since November of 2017
           </Typography>
         </CardContent>
         <CardActions style={{ display: 'flex', justifyContent: 'flex-end' }}>

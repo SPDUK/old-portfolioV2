@@ -16,6 +16,7 @@ class Drawer extends React.Component {
           open={this.props.right}
           onClose={toggleDrawer('right', false)}
           onOpen={toggleDrawer('right', true)}
+          color="secondary"
         >
           <div
             tabIndex={0}
@@ -25,12 +26,22 @@ class Drawer extends React.Component {
           >
             <div style={{ width: '250px' }}>
               <div style={{ height: '50px' }} />
-              <Button style={{ width: '250px', height: '40px' }}>
+              <Button
+                onClick={this.props.scrollToProjects}
+                style={{ width: '250px', height: '40px' }}
+              >
                 Projects
               </Button>
-              <Button style={{ width: '250px', height: '40px' }}>Extras</Button>
+              <Button
+                style={{ width: '250px', height: '40px' }}
+                onClick={this.props.scrollToCourses}
+              >
+                Courses
+              </Button>
               <Button style={{ width: '250px', height: '40px' }}>
-                Contact
+                <a style={{ color: 'black' }} href="mailto:spdevuk@gmail.com">
+                  <strong>Contact</strong>
+                </a>
               </Button>
             </div>
           </div>

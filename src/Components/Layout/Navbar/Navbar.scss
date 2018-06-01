@@ -37,6 +37,9 @@
       margin-top: 7px !important;
       display: none !important;
       font-size: 1.1em !important;
+      a {
+        color: black;
+      }
       @include breakpoint(sm) {
         display: inline-block !important;
       }

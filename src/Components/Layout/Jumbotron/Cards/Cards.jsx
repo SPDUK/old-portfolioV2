@@ -184,7 +184,7 @@ function SimpleCard(props) {
           </Typography>
         </CardContent>
       </Card>
-      <Card elevation="8" className={classes.secondCard}>
+      <Card elevation="6" className={classes.secondCard}>
         <CardContent>
           <Typography color="primary" className={classes.title}>
             Who I am
@@ -206,7 +206,9 @@ function SimpleCard(props) {
             color="primary"
             className={classes.button}
           >
-            Contact Me
+            <a style={{ color: 'black' }} href="mailto:spdevuk@gmail.com">
+              Contact Me
+            </a>
             <i className="fas fa-arrow-right card-arrow" />
           </Button>
         </CardActions>

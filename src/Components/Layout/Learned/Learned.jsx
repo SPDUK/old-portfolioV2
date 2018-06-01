@@ -37,7 +37,7 @@ class Learned extends Component {
     };
     // can't map over LearnedItem because I want to conditionally render each one.
     return (
-      <div style={{ marginTop: 100 }}>
+      <div className="learned" style={{ marginTop: 100 }}>
         <div className="container">
           <h1>What I've Learned</h1>
           <Button onClick={showFrontEnd}>Front-End</Button>

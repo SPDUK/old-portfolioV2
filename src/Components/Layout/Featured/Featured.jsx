@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import { withStyles } from '@material-ui/core/styles';
 
 import FeaturedProject from './FeaturedProject/FeaturedProject';
 import './Featured.css';
 
-const styles = theme => ({
+const styles = {
   root: {
     flexGrow: 1,
     justifyContent: 'center'
   }
-});
+};
 
 function Featured(props) {
   const { classes } = props;

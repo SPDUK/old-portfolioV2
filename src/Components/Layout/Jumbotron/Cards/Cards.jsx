@@ -31,6 +31,9 @@ const styles = {
     fontSize: 18,
     marginBottom: 3
   },
+  button: {
+    marginRight: 15
+  },
   secondCard: {
     minWidth: 290,
     maxWidth: 400,
@@ -87,13 +90,9 @@ function SimpleCard(props) {
 
   return (
     <div className={classes.cards}>
-      <Card elevation="8" className={classes.firstCard}>
+      <Card elevation={6} className={classes.firstCard}>
         <CardContent>
-          <Typography
-            variant="headline"
-            className={classes.title}
-            color="primaryText"
-          >
+          <Typography variant="headline" className={classes.title}>
             What I do
           </Typography>
           <Divider className={classes.divider} />
@@ -184,7 +183,7 @@ function SimpleCard(props) {
           </Typography>
         </CardContent>
       </Card>
-      <Card elevation="6" className={classes.secondCard}>
+      <Card elevation={4} className={classes.secondCard}>
         <CardContent>
           <Typography color="primary" className={classes.title}>
             Who I am

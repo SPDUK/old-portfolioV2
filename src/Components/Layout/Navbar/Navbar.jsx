@@ -9,9 +9,6 @@ import './Navbar.css';
 import Drawer from './Drawer/Drawer';
 
 class Navbar extends Component {
-  constructor() {
-    super();
-  }
   state = {
     right: false
   };

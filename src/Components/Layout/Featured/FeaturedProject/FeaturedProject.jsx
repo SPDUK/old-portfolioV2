@@ -34,12 +34,7 @@ function Featured(props) {
         </CardContent>
         <CardActions className={classes.cardbutton}>
           <a href={link}>
-            <Button
-              size="medium"
-              variant="secondary"
-              color="primaryText"
-              className="card-button"
-            >
+            <Button size="medium" className="card-button">
               Learn More <i className="fas fa-arrow-right card-arrow" />
             </Button>
           </a>

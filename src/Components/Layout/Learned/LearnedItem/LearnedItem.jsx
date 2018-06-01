@@ -33,7 +33,7 @@ function LearnedItem(props) {
   return (
     <ReactAux>
       <div className={classes.root}>
-        <Grid container spacing={20}>
+        <Grid container spacing={0}>
           <Grid item xs={12} sm={5}>
             <Typography className={classes.title} variant="title">
               {title}

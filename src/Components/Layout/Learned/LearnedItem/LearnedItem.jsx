@@ -34,7 +34,7 @@ function LearnedItem(props) {
     <ReactAux>
       <div className={classes.root}>
         <Grid container spacing={20}>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={5}>
             <Typography className={classes.title} variant="title">
               {title}
             </Typography>
@@ -45,7 +45,7 @@ function LearnedItem(props) {
           <Grid item xs={12} sm={3}>
             <Typography variant="subheading">{date}</Typography>
           </Grid>
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={1}>
             <Typography
               className="learneditem-button"
               style={{ cursor: 'pointer' }}

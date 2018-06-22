@@ -28,9 +28,9 @@ function Featured(props) {
           </Grid>
           <Grid item md={6} xs={12}>
             <FeaturedProject
-              image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1527838893/tradingpostmac.jpg"
-              title="Trading Post"
-              link="https://spduk.github.io/tradingpost/"
+              image="http://res.cloudinary.com/dmjolhdaq/image/upload/v1529670340/Portfolio/fira-minified.jpg"
+              title="Fira | Startpage"
+              link="https://fira.app"
             />
           </Grid>
         </Grid>

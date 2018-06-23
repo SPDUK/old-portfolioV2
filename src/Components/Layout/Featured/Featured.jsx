@@ -30,7 +30,7 @@ function Featured(props) {
             <FeaturedProject
               image="http://res.cloudinary.com/dmjolhdaq/image/upload/v1529670340/Portfolio/fira-minified.jpg"
               title="Fira | Startpage"
-              link="https://fira.app"
+              link="https://startpage.fira.app"
             />
           </Grid>
         </Grid>

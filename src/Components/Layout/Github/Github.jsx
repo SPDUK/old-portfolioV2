@@ -5,8 +5,8 @@ import ChartistGraph from 'react-chartist';
 export default class Github extends Component {
   render() {
     const lineChartData = {
-      labels: [0, 2, 3, 4, 5, 6],
-      series: [[0, 1, 2, 3, 4, 5]]
+      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+      series: [[37, 151, 126, 264, 338, 291]]
     };
     const lineChartOptions = {
       low: 0,
@@ -16,7 +16,7 @@ export default class Github extends Component {
 
     return (
       <div className="container github">
-        <h1>Github</h1>
+        <h1>Github Commits</h1>
         <ChartistGraph
           className="ct-octave"
           data={lineChartData}

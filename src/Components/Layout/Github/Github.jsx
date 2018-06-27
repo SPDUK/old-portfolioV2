@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Github.css';
+import Popover from '@material-ui/core/Popover';
 import ChartistGraph from 'react-chartist';
 
 export default class Github extends Component {
@@ -11,14 +12,15 @@ export default class Github extends Component {
     const lineChartOptions = {
       low: 0,
       showArea: true,
-      fullWidth: true
+      fullWidth: true,
+      showPoint: false
     };
 
     return (
       <div className="container github">
-        <h1>Github Commits</h1>
+        <h1>Github Commits in the last 6 months</h1>
         <ChartistGraph
-          className="ct-octave"
+          className="ct-major-twelfth"
           data={lineChartData}
           options={lineChartOptions}
           type="Line"

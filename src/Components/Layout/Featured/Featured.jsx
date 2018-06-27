@@ -17,7 +17,7 @@ function Featured(props) {
   return (
     <div className="featured">
       <div className="container">
-        <h1>Featured Projects</h1>
+        <h1>Featured Personal Projects</h1>
         <Grid className={classes.root} container spacing={24}>
           <Grid item md={6} xs={12}>
             <FeaturedProject
@@ -29,7 +29,7 @@ function Featured(props) {
           <Grid item md={6} xs={12}>
             <FeaturedProject
               image="http://res.cloudinary.com/dmjolhdaq/image/upload/v1529670340/Portfolio/fira-minified.jpg"
-              title="Fira | Startpage"
+              title="Startpage"
               link="https://startpage.fira.app"
             />
           </Grid>

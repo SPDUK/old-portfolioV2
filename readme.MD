@@ -1,8 +1,9 @@
-# Portfolio 
+# Portfolio
 
+A simple and minimal portfolio, Using Material UI with React.
 
-## todo: 
-* Add animations 
-* Add page for each featured project
-* Add more projects + courses 
-* Make filter buttons highlight when selecting one
+Lighthouse Scores: 100 performance, 100 Accessibility, 100 Best Practices: 78 SEO.
+
+Loads in around 150ms for the first paint.
+
+![](lighthouse.png)

@@ -112,8 +112,8 @@ function SimpleCard(props) {
                 className="devicon-html5-plain colored"
               />
               <Popover
-                popName="HTML5"
-                popInfo="I use HTML5 to structure my websites, and use HTML inside of React components too."
+                popName="HTML"
+                popInfo="Using HTML I create responsive and accessible web pages and templates."
               />
             </Typography>
           </div>
@@ -130,7 +130,7 @@ function SimpleCard(props) {
             />
             <Popover
               popName="Sass"
-              popInfo="I use Sass to take advantage of variables and CSS script functions, as well as basic CSS."
+              popInfo="With Sass I create clean code that is nested and easy to read to create maintainble code for the future."
             />
           </Typography>
           <Typography
@@ -145,7 +145,7 @@ function SimpleCard(props) {
             />
             <Popover
               popName="JavaScript"
-              popInfo="I use JavaScipt to do many things, from simple things like adding a class when a button is clicked to intermediate level algorithms."
+              popInfo="Using modern Javascript I'm able to do anything, from basic DOM manipulation to advanced algorithms with a focus on functionality and performance."
             />
           </Typography>
           <Typography
@@ -160,7 +160,7 @@ function SimpleCard(props) {
             />
             <Popover
               popName="React"
-              popInfo="I use React to Compose the front-end of my apps, resulting in a fast website that is also easily scalable."
+              popInfo="With React I create modern, fast applications that can scale easily while being maintainable with reusable UI components"
             />
           </Typography>
           <Typography
@@ -178,7 +178,7 @@ function SimpleCard(props) {
             />
             <Popover
               popName="Node.js"
-              popInfo="I use Node.js to do everything from simply installing NPM modules to an entire back-end with a database."
+              popInfo="I've used Node.js to create multiple full-stack web applications that are fast and efficient, and it pairs perfectly with MongoDB as a database."
             />
           </Typography>
         </CardContent>
@@ -194,8 +194,8 @@ function SimpleCard(props) {
             color="primary"
             variant="subheading"
           >
-            I am a 24 year-old self-taught React Developer, I have been learning
-            since November of 2017
+            I am a self-taught React Developer, with an interest in functional
+            programming.
           </Typography>
         </CardContent>
         <CardActions style={{ display: 'flex', justifyContent: 'flex-end' }}>

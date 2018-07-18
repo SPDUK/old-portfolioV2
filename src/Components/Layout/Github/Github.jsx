@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Github.css';
-import Popover from '@material-ui/core/Popover';
 import ChartistGraph from 'react-chartist';
+
+import './Github.css';
 
 export default class Github extends Component {
   render() {

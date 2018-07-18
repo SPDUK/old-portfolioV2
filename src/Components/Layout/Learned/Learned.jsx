@@ -39,7 +39,7 @@ class Learned extends Component {
     return (
       <div className="learned" style={{ marginTop: 100 }}>
         <div className="container">
-          <h1>Courses I've taken</h1>
+          <h1>Other Projects I've done</h1>
           <Button onClick={showFrontEnd}>Front-End</Button>
           <Button onClick={showFullStack}>Full-Stack</Button>
           <Button onClick={showAllStacks}>Show All</Button>

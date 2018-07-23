@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Button from '@material-ui/core/Button';
+// eslint-disable-next-line
 import { animateScroll as scroll, scroller } from 'react-scroll';
 
 import './Navbar.css';

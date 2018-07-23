@@ -117,70 +117,77 @@ function SimpleCard(props) {
               />
             </Typography>
           </div>
-
-          <Typography
-            className={classes.headline}
-            variant="headline"
-            component="h2"
-            style={{ display: 'flex' }}
-          >
-            <i
-              style={{ fontSize: 24, marginRight: `33%` }}
-              className="devicon-sass-original colored"
-            />
-            <Popover
-              popName="Sass"
-              popInfo="With Sass I create clean code that is nested and easy to read to create maintainble code for the future."
-            />
-          </Typography>
-          <Typography
-            className={classes.headline}
-            variant="headline"
-            component="h2"
-            style={{ display: 'flex' }}
-          >
-            <i
-              style={{ fontSize: 24, marginRight: `33%` }}
-              className="devicon-javascript-plain colored"
-            />
-            <Popover
-              popName="JavaScript"
-              popInfo="Using modern Javascript I'm able to do anything, from basic DOM manipulation to advanced algorithms with a focus on functionality and performance."
-            />
-          </Typography>
-          <Typography
-            className={classes.headline}
-            variant="headline"
-            component="h2"
-            style={{ display: 'flex' }}
-          >
-            <i
-              style={{ fontSize: 24, marginRight: `33%` }}
-              className="devicon-react-original colored"
-            />
-            <Popover
-              popName="React"
-              popInfo="With React I create modern, fast applications that can scale easily while being maintainable with reusable UI components"
-            />
-          </Typography>
-          <Typography
-            className={classes.headline}
-            variant="headline"
-            component="h2"
-            style={{
-              display: 'flex'
-            }}
-          >
-            {' '}
-            <i
-              style={{ fontSize: 24, marginRight: `33%` }}
-              className="devicon-nodejs-plain colored"
-            />
-            <Popover
-              popName="Node.js"
-              popInfo="I've used Node.js to create multiple full-stack web applications that are fast and efficient, and it pairs perfectly with MongoDB as a database."
-            />
-          </Typography>
+          <div className="card-item">
+            <Typography
+              className={classes.headline}
+              variant="headline"
+              component="h2"
+              style={{ display: 'flex' }}
+            >
+              <i
+                style={{ fontSize: 24, marginRight: `33%` }}
+                className="devicon-sass-original colored"
+              />
+              <Popover
+                popName="Sass"
+                popInfo="With Sass I create clean code that is nested and easy to read to create maintainble code for the future."
+              />
+            </Typography>
+          </div>
+          <div className="card-item">
+            <Typography
+              className={classes.headline}
+              variant="headline"
+              component="h2"
+              style={{ display: 'flex' }}
+            >
+              <i
+                style={{ fontSize: 24, marginRight: `33%` }}
+                className="devicon-javascript-plain colored"
+              />
+              <Popover
+                popName="JavaScript"
+                popInfo="Using modern Javascript I'm able to do anything, from basic DOM manipulation to advanced algorithms with a focus on functionality and performance."
+              />
+            </Typography>
+          </div>
+          <div className="card-item">
+            <Typography
+              className={classes.headline}
+              variant="headline"
+              component="h2"
+              style={{ display: 'flex' }}
+            >
+              <i
+                style={{ fontSize: 24, marginRight: `33%` }}
+                className="devicon-react-original colored"
+              />
+              <Popover
+                popName="React"
+                popInfo="With React I create modern, fast applications that can scale easily while being maintainable with reusable UI components"
+              />
+            </Typography>
+          </div>
+          <div className="card-item">
+            <Typography
+              className={classes.headline}
+              variant="headline"
+              component="h2"
+              style={{
+                display: 'flex'
+              }}
+            >
+              {' '}
+              <i
+                style={{ fontSize: 24, marginRight: `33%` }}
+                className="devicon-nodejs-plain colored"
+              />
+              <Popover
+                popName="Node.js"
+                popInfo="I've used Node.js to create multiple full-stack web applications that are fast and efficient, and it pairs perfectly with MongoDB as a database."
+              />
+            </Typography>
+          </div>
         </CardContent>
       </Card>
       <Card elevation={4} className={classes.secondCard}>

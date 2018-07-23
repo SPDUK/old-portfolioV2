@@ -19,7 +19,7 @@
     .jumbo {
       background-size: 100% 580px; } }
   .jumbo-text {
-    font-size: 0.70em; }
+    font-size: 0.7em; }
     @media screen and (min-width: 650px) {
       .jumbo-text {
         font-size: 0.9em;
@@ -35,12 +35,12 @@
         font-size: 1.5em; } }
     .jumbo-text a {
       color: #3F51B5;
-      transition: 0.15s ease;
+      transition: 0.25s ease;
       transform: translateY(0px); }
       .jumbo-text a:hover {
         color: #8591d5;
-        transition: 0.15s ease;
-        transform: translateY(-5px); }
+        transition: 0.25s ease;
+        transform: translateY(-50px); }
   .jumbo-cards {
     display: flex;
     justify-content: center; }

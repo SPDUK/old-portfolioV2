@@ -1,7 +1,3 @@
-.colored {
-  transition: 0.2s ease-out;
-  filter: saturate(0%) brightness(10%); }
-
 .card-arrow {
   margin-left: 5px;
   transition: 0.1s ease-in;
@@ -10,6 +6,10 @@
 #card-button:hover .card-arrow {
   transition: 0.1s ease-in;
   transform: translateX(4px); }
+
+.colored {
+  transition: 0.2s ease-out;
+  filter: saturate(0%) brightness(10%); }
 
 .card-item {
   cursor: default; }

@@ -12,10 +12,10 @@ const Footer = () => (
     </Typography>
     <div className="footer-links">
       <Typography variant="subheading">
-        <a href="mailto:spdevuk@gmail.com">Email</a>
+        <a href="https://github.com/SPDUK">Github</a>
       </Typography>
       <Typography variant="subheading">
-        <a href="https://github.com/SPDUK">Github</a>
+        <a href="mailto:spdevuk@gmail.com">spdevuk@gmail.com</a>
       </Typography>
     </div>
   </div>

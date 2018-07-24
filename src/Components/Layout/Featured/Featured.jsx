@@ -35,16 +35,16 @@ function Featured(props) {
           </Grid>
           <Grid item md={6} xs={12}>
             <FeaturedProject
-              image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1529670340/Portfolio/fira-minified.jpg"
-              title="Startpage"
-              link="https://startpage.fira.app"
+              image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1532426260/Portfolio/quickprojectsmac.jpg"
+              title="Quick Projects"
+              link="https://spduk.github.io/Quick-Projects/#/projects"
             />
           </Grid>
           <Grid item md={6} xs={12}>
             <FeaturedProject
-              image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1529670340/Portfolio/fira-minified.jpg"
-              title="Startpage"
-              link="https://startpage.fira.app"
+              image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1532426260/Portfolio/tradingpostmac.jpg"
+              title="Trading Post"
+              link="https://spduk.github.io/tradingpost/#/"
             />
           </Grid>
         </Grid>

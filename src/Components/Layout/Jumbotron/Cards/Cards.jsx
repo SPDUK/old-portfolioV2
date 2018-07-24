@@ -143,11 +143,21 @@ class SimpleCard extends Component {
             onClose={this.handleClose}
           >
             <div style={getModalStyle()} className={classes.paper}>
-              <Typography variant="title" id="modal-title">
-                Text in a modal
+              <Typography
+                className="modal-item"
+                variant="title"
+                id="modal-title"
+              >
+                📧 Email:{' '}
+                <a href="mailto:spdevuk@gmail.com">spdevuk@gmail.com</a>
               </Typography>
-              <Typography variant="subheading" id="simple-modal-description">
-                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+              <Divider />
+              <Typography
+                className="modal-item"
+                variant="title"
+                id="modal-title"
+              >
+                💠 Github: <a href="https://github.com/SPDUK">SPDUK</a>
               </Typography>
             </div>
           </Modal>

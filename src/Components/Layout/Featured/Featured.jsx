@@ -37,7 +37,7 @@ function Featured(props) {
             <FeaturedProject
               image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1532426260/Portfolio/quickprojectsmac.jpg"
               title="Quick Projects"
-              link="https://spduk.github.io/Quick-Projects/#/projects"
+              link="https://spduk.github.io/Quick-Projects/#/"
             />
           </Grid>
           <Grid item md={6} xs={12}>

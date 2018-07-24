@@ -278,10 +278,9 @@ class SimpleCard extends Component {
                 variant="raised"
                 color="primary"
                 className={classes.button}
+                onClick={this.handleOpen}
               >
-                <a style={{ color: 'black' }} onClick={this.handleOpen}>
-                  Contact Me
-                </a>
+                <a style={{ color: 'black' }}>Contact Me</a>
                 <i className="fas fa-arrow-right card-arrow" />
               </Button>
             </CardActions>

@@ -1,4 +1,5 @@
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -26,7 +27,9 @@ function Featured(props) {
   return (
     <div>
       <Card className={classes.card}>
-        <CardMedia className={classes.media} image={image} title={title} />
+        <LazyLoad height={500} offset={200} once>
+          <CardMedia className={classes.media} image={image} title={title} />
+        </LazyLoad>
         <CardContent className={classes.cardgutter}>
           <Typography gutterBottom variant="headline" component="h2">
             {title}

@@ -118,7 +118,7 @@ class SimpleCard extends Component {
   }
   toggleEmailModal = () => {
     this.setState({
-      showEmailModal: true
+      open: false
     });
   };
 

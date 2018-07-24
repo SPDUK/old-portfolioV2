@@ -33,6 +33,20 @@ function Featured(props) {
               link="https://startpage.fira.app"
             />
           </Grid>
+          <Grid item md={6} xs={12}>
+            <FeaturedProject
+              image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1529670340/Portfolio/fira-minified.jpg"
+              title="Startpage"
+              link="https://startpage.fira.app"
+            />
+          </Grid>
+          <Grid item md={6} xs={12}>
+            <FeaturedProject
+              image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1529670340/Portfolio/fira-minified.jpg"
+              title="Startpage"
+              link="https://startpage.fira.app"
+            />
+          </Grid>
         </Grid>
       </div>
     </div>

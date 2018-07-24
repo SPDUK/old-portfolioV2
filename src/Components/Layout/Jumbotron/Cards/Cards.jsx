@@ -148,8 +148,10 @@ class SimpleCard extends Component {
                 variant="title"
                 id="modal-title"
               >
-                📧 Email:{' '}
-                <a href="mailto:spdevuk@gmail.com">spdevuk@gmail.com</a>
+                <span role="img" aria-label="email">
+                  📧
+                </span>{' '}
+                Email: <a href="mailto:spdevuk@gmail.com">spdevuk@gmail.com</a>
               </Typography>
               <Divider />
               <Typography
@@ -157,7 +159,10 @@ class SimpleCard extends Component {
                 variant="title"
                 id="modal-title"
               >
-                💠 Github: <a href="https://github.com/SPDUK">SPDUK</a>
+                <span role="img" aria-label="github">
+                  💠
+                </span>{' '}
+                Github: <a href="https://github.com/SPDUK">SPDUK</a>
               </Typography>
             </div>
           </Modal>

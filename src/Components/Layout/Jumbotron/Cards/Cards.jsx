@@ -187,7 +187,8 @@ class SimpleCard extends Component {
                     style={{
                       fontSize: 24,
                       marginRight: `33%`,
-                      display: 'inline-block'
+                      height: '24px',
+                      width: '24px'
                     }}
                     className="devicon-html5-plain colored"
                   />
@@ -205,7 +206,12 @@ class SimpleCard extends Component {
                   style={{ display: 'flex' }}
                 >
                   <i
-                    style={{ fontSize: 24, marginRight: `33%` }}
+                    style={{
+                      fontSize: 24,
+                      marginRight: `33%`,
+                      height: '24px',
+                      width: '24px'
+                    }}
                     className="devicon-sass-original colored"
                   />
                   <Popover
@@ -222,7 +228,12 @@ class SimpleCard extends Component {
                   style={{ display: 'flex' }}
                 >
                   <i
-                    style={{ fontSize: 24, marginRight: `33%` }}
+                    style={{
+                      fontSize: 24,
+                      marginRight: `33%`,
+                      height: '24px',
+                      width: '24px'
+                    }}
                     className="devicon-javascript-plain colored"
                   />
                   <Popover
@@ -239,7 +250,12 @@ class SimpleCard extends Component {
                   style={{ display: 'flex' }}
                 >
                   <i
-                    style={{ fontSize: 24, marginRight: `33%` }}
+                    style={{
+                      fontSize: 24,
+                      marginRight: `33%`,
+                      height: '24px',
+                      width: '24px'
+                    }}
                     className="devicon-react-original colored"
                   />
                   <Popover
@@ -259,7 +275,12 @@ class SimpleCard extends Component {
                 >
                   {' '}
                   <i
-                    style={{ fontSize: 24, marginRight: `33%` }}
+                    style={{
+                      fontSize: 24,
+                      marginRight: `33%`,
+                      height: '24px',
+                      width: '24px'
+                    }}
                     className="devicon-nodejs-plain colored"
                   />
                   <Popover

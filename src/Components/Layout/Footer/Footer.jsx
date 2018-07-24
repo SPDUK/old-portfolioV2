@@ -6,7 +6,7 @@ const Footer = () => (
   <div className="footer container">
     <Typography variant="headline">
       Looking for a developer?{' '}
-      <a href="mailto:spdevuk@gmail.com" className="footer-title-link">
+      <a href="https://github.com/SPDUK" className="footer-title-link">
         Get in touch
       </a>
     </Typography>

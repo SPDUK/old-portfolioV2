@@ -7,7 +7,7 @@
     .footer-links a {
       transition: 0.2s ease-in;
       margin-right: 20px;
-      color: black; }
+      color: rgba(34, 34, 34, 0.836); }
       .footer-links a:hover {
         transition: 0.2s ease-in;
         color: #3F51B5; }

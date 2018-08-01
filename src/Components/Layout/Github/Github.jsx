@@ -6,8 +6,8 @@ import './Github.css';
 export default class Github extends Component {
   render() {
     const lineChartData = {
-      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
-      series: [[37, 151, 126, 264, 338, 291]]
+      labels: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+      series: [[151, 126, 264, 338, 291, 280]]
     };
     const lineChartOptions = {
       low: 0,

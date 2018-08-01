@@ -56,6 +56,9 @@ class Navbar extends Component {
             toggleDrawer={this.toggleDrawer}
           />
           <IconButton
+            role="button"
+            aria-label="Open Mobile Menu"
+            tabIndex="-1"
             onClick={this.toggleDrawer('right', true)}
             className="nav-menu-burger"
           >

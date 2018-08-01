@@ -1,6 +1,6 @@
-@import '../../../styles/variables.scss';
+@import '../../../styles/_variables.scss';
 .jumbo {
-  background: url('../../../media/images/tri03.png') no-repeat;
+  background: url('/src/media/images/tri03.png') no-repeat;
   background-size: auto 800px;
   margin-top: -50px; // height: 750px;
   padding-top: 100px;

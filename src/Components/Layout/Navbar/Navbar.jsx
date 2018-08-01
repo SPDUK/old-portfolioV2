@@ -5,8 +5,6 @@ import Button from '@material-ui/core/Button';
 // eslint-disable-next-line
 import { animateScroll as scroll, scroller } from 'react-scroll';
 
-import './Navbar.css';
-
 import Drawer from './Drawer/Drawer';
 
 class Navbar extends Component {

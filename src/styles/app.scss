@@ -1,0 +1,42 @@
+@import '../Components/Layout/Featured/_Featured.scss';
+@import '../Components/Layout/Footer/_Footer.scss';
+@import '../Components/Layout/Github/_Github.scss';
+@import '../Components/Layout/Jumbotron/_Jumbotron.scss';
+@import '../Components/Layout/Jumbotron/Cards/_Cards.scss';
+@import '../Components/Layout/Learned/_Learned.scss';
+@import '../Components/Layout/Learned/LearnedItem/_LearnedItem.scss';
+@import '../Components/Layout/Navbar/_Navbar.scss';
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a,
+a:visited {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}

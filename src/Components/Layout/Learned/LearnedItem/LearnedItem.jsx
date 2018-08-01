@@ -5,8 +5,6 @@ import Grid from '@material-ui/core/Grid';
 import Divider from '@material-ui/core/Divider';
 import ReactAux from '../../../hoc/ReactAux';
 
-import './LearnedItem.css';
-
 const styles = {
   root: {
     marginTop: 25,

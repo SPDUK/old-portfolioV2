@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import LazyLoad from 'react-lazyload';
 
 import Cards from './Cards/Cards';
-import './Jumbotron.css';
 
 class Jumbotron extends Component {
   render() {

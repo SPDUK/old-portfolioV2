@@ -11,8 +11,6 @@ import Modal from '@material-ui/core/Modal';
 import ReactAux from '../../../hoc/ReactAux';
 import Popover from './Popover/Popver';
 
-import './Cards.css';
-
 // TODO: a bit of a mess? maybe refactor later.
 
 const styles = theme => ({

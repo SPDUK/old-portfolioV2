@@ -48,10 +48,8 @@ class Navbar extends Component {
           <Button onClick={this.scrollToCourses} className="nav-menu-item">
             Courses
           </Button>
-          <a href="mailto:spdevuk@gmail.com">
-            <Button className="nav-menu-item">
-              <strong>Contact</strong>
-            </Button>
+          <a href="https://github.com/SPDUK">
+            <Button className="nav-menu-item">Github</Button>
           </a>
           <Drawer
             scrollToCourses={this.scrollToCourses}

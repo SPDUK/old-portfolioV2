@@ -39,7 +39,7 @@ class Drawer extends React.Component {
                 Courses
               </Button>
               <Button style={{ width: '250px', height: '40px' }}>
-                <a style={{ color: 'black' }} href="mailto:spdevuk@gmail.com">
+                <a style={{ color: 'black' }} href="https://github.com/SPDUK">
                   <strong>Contact</strong>
                 </a>
               </Button>

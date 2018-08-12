@@ -49,7 +49,7 @@ function Featured(props) {
         <CardActions className={classes.cardbutton}>
           <a href={link}>
             <Button size="medium" className="card-button">
-              Learn More <i className="fas fa-arrow-right card-arrow" />
+              Visit Site <i className="fas fa-arrow-right card-arrow" />
             </Button>
           </a>
         </CardActions>

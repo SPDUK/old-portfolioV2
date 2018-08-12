@@ -41,7 +41,8 @@ function Featured(props) {
             className={classes.cardDescription}
             gutterBottom
             variant="subheading"
-            component="h5">
+            component="h5"
+          >
             {description}
           </Typography>
         </CardContent>

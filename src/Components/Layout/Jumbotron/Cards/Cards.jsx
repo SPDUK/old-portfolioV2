@@ -186,33 +186,11 @@ class SimpleCard extends Component {
                       height: '24px',
                       width: '24px'
                     }}
-                    className="devicon-html5-plain colored"
+                    className="devicon-ruby-plain colored"
                   />
                   <Popover
-                    popName="HTML"
-                    popInfo="Using HTML I create responsive and accessible web pages and templates."
-                  />
-                </Typography>
-              </div>
-              <div className="card-item">
-                <Typography
-                  className={classes.headline}
-                  variant="headline"
-                  component="h2"
-                  style={{ display: 'flex' }}
-                >
-                  <i
-                    style={{
-                      fontSize: 24,
-                      marginRight: `33%`,
-                      height: '24px',
-                      width: '24px'
-                    }}
-                    className="devicon-sass-original colored"
-                  />
-                  <Popover
-                    popName="Sass"
-                    popInfo="With Sass I create clean code that is nested and easy to read to create maintainable code for the future."
+                    popName="Ruby"
+                    popInfo="Using Ruby and Rails I can create apps much faster, with much cleaner code"
                   />
                 </Typography>
               </div>
@@ -282,6 +260,28 @@ class SimpleCard extends Component {
                   <Popover
                     popName="Node.js"
                     popInfo="I've used Node.js to create multiple full-stack web applications that are fast and efficient, and it pairs perfectly with MongoDB as a database."
+                  />
+                </Typography>
+              </div>
+              <div className="card-item">
+                <Typography
+                  className={classes.headline}
+                  variant="headline"
+                  component="h2"
+                  style={{ display: 'flex' }}
+                >
+                  <i
+                    style={{
+                      fontSize: 24,
+                      marginRight: `33%`,
+                      height: '24px',
+                      width: '24px'
+                    }}
+                    className="devicon-sass-original colored"
+                  />
+                  <Popover
+                    popName="Sass"
+                    popInfo="With Sass I create clean code that is nested and easy to read to create maintainable code for the future."
                   />
                 </Typography>
               </div>

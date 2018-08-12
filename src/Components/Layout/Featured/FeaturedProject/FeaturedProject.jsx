@@ -19,11 +19,14 @@ const styles = {
   cardbutton: {
     display: 'flex',
     justifyContent: 'flex-end'
+  },
+  cardDescription: {
+    minHeight: '72px',
   }
 };
 
 function Featured(props) {
-  const { classes, image, title, link } = props;
+  const { classes, image, title, link, description } = props;
   return (
     <div>
       <Card className={classes.card}>
@@ -33,6 +36,13 @@ function Featured(props) {
         <CardContent className={classes.cardgutter}>
           <Typography gutterBottom variant="headline" component="h2">
             {title}
+          </Typography>
+          <Typography
+            className={classes.cardDescription}
+            gutterBottom
+            variant="subheading"
+            component="h5">
+            {description}
           </Typography>
         </CardContent>
         <CardActions className={classes.cardbutton}>

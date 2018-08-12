@@ -19,7 +19,7 @@ class Navbar extends Component {
       smooth: 'easeIn'
     });
   };
-  scrollToCourses = () => {
+  scrollToExtraProjects = () => {
     scroller.scrollTo('learned', {
       duration: 400,
       offset: -70,
@@ -43,14 +43,17 @@ class Navbar extends Component {
           <Button onClick={this.scrollToProjects} className="nav-menu-item">
             Projects
           </Button>
-          <Button onClick={this.scrollToCourses} className="nav-menu-item">
-            Courses
+          <Button
+            onClick={this.scrollToExtraProjects}
+            className="nav-menu-item"
+          >
+            Extra Projects
           </Button>
           <a href="https://github.com/SPDUK">
             <Button className="nav-menu-item">Github</Button>
           </a>
           <Drawer
-            scrollToCourses={this.scrollToCourses}
+            scrollToExtraProjects={this.scrollToExtraProjects}
             scrollToProjects={this.scrollToProjects}
             right={this.state.right}
             toggleDrawer={this.toggleDrawer}

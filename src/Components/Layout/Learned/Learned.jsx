@@ -69,6 +69,15 @@ class Learned extends Component {
               link="https://github.com/SPDUK/store-app"
             />
           ) : null}
+
+          {this.state.showFrontEnd ? (
+            <LearnedItem
+              title="Trading Post"
+              skills="React, Sass"
+              date="Mar 2018"
+              link="https://github.com/SPDUK/tradingpost"
+            />
+          ) : null}
           {this.state.showFullStack ? (
             <LearnedItem
               title="Node with React"

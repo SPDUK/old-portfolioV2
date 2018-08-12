@@ -125,7 +125,6 @@ class SimpleCard extends Component {
     this.setState({ open: false });
   };
 
-
   render() {
     const { classes } = this.props;
     return (
@@ -143,10 +142,7 @@ class SimpleCard extends Component {
                 variant="title"
                 id="modal-title"
               >
-                <span role="img" aria-label="email">
-                  📧
-                </span>{' '}
-                Email:
+                <i className="fas fa-envelope" /> Email:
                 <a href="mailto:spdevuk@gmail.com">spdevuk@gmail.com</a>
               </Typography>
               <Divider />
@@ -155,16 +151,14 @@ class SimpleCard extends Component {
                 variant="title"
                 id="modal-title"
               >
-                <span role="img" aria-label="github">
-                  💠
-                </span>{' '}
-                Github: <a href="https://github.com/SPDUK">SPDUK</a>
+                <i className="fab fa-github" /> Github:{' '}
+                <a href="https://github.com/SPDUK">SPDUK</a>
               </Typography>
             </div>
           </Modal>
         ) : (
-            <div />
-          )}
+          <div />
+        )}
         <div className={classes.cards}>
           <Card elevation={6} className={classes.firstCard}>
             <CardContent>

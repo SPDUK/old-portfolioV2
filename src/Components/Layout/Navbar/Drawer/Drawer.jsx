@@ -2,9 +2,6 @@ import React from 'react';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import Button from '@material-ui/core/Button';
 
-// TODO: add icons beside links
-// maybe style drawer
-
 class Drawer extends React.Component {
   render() {
     const { toggleDrawer } = this.props;
@@ -35,16 +32,22 @@ class Drawer extends React.Component {
               </Button>
               <Button
                 style={{ width: '250px', height: '40px' }}
-                onClick={this.props.scrollToCourses}
+                onClick={this.props.scrollToExtraProjects}
               >
                 Extra Projects
-                <i style={{ marginLeft: '5px' }} className="fas fa-project-diagram" />
+                <i
+                  style={{ marginLeft: '5px' }}
+                  className="fas fa-project-diagram"
+                />
               </Button>
               <Button style={{ width: '250px', height: '40px' }}>
                 <a style={{ color: 'black' }} href="https://github.com/SPDUK">
                   <strong>
                     Github
-                    <i style={{ marginLeft: '5px' }} className="fab fa-github" />
+                    <i
+                      style={{ marginLeft: '5px' }}
+                      className="fab fa-github"
+                    />
                   </strong>
                 </a>
               </Button>

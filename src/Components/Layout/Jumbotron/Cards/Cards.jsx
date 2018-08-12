@@ -212,7 +212,7 @@ class SimpleCard extends Component {
                   />
                   <Popover
                     popName="JavaScript"
-                    popInfo="Using modern Javascript I'm able to do anything, from basic DOM manipulation to advanced algorithms with a focus on functionality and performance."
+                    popInfo="Using modern Javascript I'm able to do anything, from basic DOM manipulation to advanced algorithms with a focus on functionality and performance"
                   />
                 </Typography>
               </div>
@@ -259,7 +259,7 @@ class SimpleCard extends Component {
                   />
                   <Popover
                     popName="Node.js"
-                    popInfo="I've used Node.js to create multiple full-stack web applications that are fast and efficient, and it pairs perfectly with MongoDB as a database."
+                    popInfo="I've used Node.js to create multiple full-stack web applications that are fast and efficient, and it pairs perfectly with MongoDB as a database"
                   />
                 </Typography>
               </div>
@@ -281,7 +281,7 @@ class SimpleCard extends Component {
                   />
                   <Popover
                     popName="Sass"
-                    popInfo="With Sass I create clean code that is nested and easy to read to create maintainable code for the future."
+                    popInfo="With Sass I create clean code that is nested and easy to read to create maintainable code for the future"
                   />
                 </Typography>
               </div>
@@ -322,6 +322,4 @@ class SimpleCard extends Component {
     );
   }
 }
-
-// const SimpleModalWrapped = withStyles(styles)(SimpleModal);
 export default withStyles(styles)(SimpleCard);

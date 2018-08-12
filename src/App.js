@@ -10,7 +10,6 @@ import Footer from './Components/Layout/Footer/Footer';
 
 import './styles/app.css';
 
-// todo: fix button on second  card  @ low width
 // primary = monochrome - secondary - indigo
 const theme = createMuiTheme({
   palette: {

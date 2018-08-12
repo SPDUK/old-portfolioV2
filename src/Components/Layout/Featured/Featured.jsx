@@ -43,9 +43,9 @@ function Featured(props) {
             </Grid>
             <Grid item md={6} xs={12}>
               <FeaturedProject
-                image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1532426260/Portfolio/tradingpostmac.jpg"
-                title="Trading Post"
-                link="https://spduk.github.io/tradingpost/#/"
+                image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1534089834/Portfolio/blogsonrails-Macbook.jpg"
+                title="Blogs on Rails"
+                link="https://spduk-rails-blog.herokuapp.com/"
               />
             </Grid>
           </Grid>

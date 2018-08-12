@@ -11,8 +11,6 @@ import Modal from '@material-ui/core/Modal';
 import ReactAux from '../../../hoc/ReactAux';
 import Popover from './Popover/Popver';
 
-// TODO: a bit of a mess? maybe refactor later.
-
 const styles = theme => ({
   cards: {
     marginTop: 60,
@@ -114,23 +112,22 @@ class SimpleCard extends Component {
       open: false
     };
   }
+
   toggleEmailModal = () => {
     this.setState({
       open: false
     });
   };
-
   handleOpen = () => {
     this.setState({ open: true });
   };
-
   handleClose = () => {
     this.setState({ open: false });
   };
 
+
   render() {
     const { classes } = this.props;
-
     return (
       <ReactAux>
         {this.state.open ? (
@@ -149,7 +146,8 @@ class SimpleCard extends Component {
                 <span role="img" aria-label="email">
                   📧
                 </span>{' '}
-                Email: <a href="mailto:spdevuk@gmail.com">spdevuk@gmail.com</a>
+                Email:
+                <a href="mailto:spdevuk@gmail.com">spdevuk@gmail.com</a>
               </Typography>
               <Divider />
               <Typography
@@ -165,8 +163,8 @@ class SimpleCard extends Component {
             </div>
           </Modal>
         ) : (
-          <div />
-        )}
+            <div />
+          )}
         <div className={classes.cards}>
           <Card elevation={6} className={classes.firstCard}>
             <CardContent>
@@ -214,7 +212,7 @@ class SimpleCard extends Component {
                   />
                   <Popover
                     popName="Sass"
-                    popInfo="With Sass I create clean code that is nested and easy to read to create maintainble code for the future."
+                    popInfo="With Sass I create clean code that is nested and easy to read to create maintainable code for the future."
                   />
                 </Typography>
               </div>

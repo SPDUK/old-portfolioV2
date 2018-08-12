@@ -11,6 +11,7 @@ Loads in around 200ms for the first paint.
 ---
 
 Setup locally:
+Make sure you are using node v10, [use NVM](https://github.com/creationix/nvm)
 
 ```
 npm install

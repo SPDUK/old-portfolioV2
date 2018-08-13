@@ -23,6 +23,7 @@ class Learned extends Component {
         showFullStack: true
       });
     };
+
     const showFrontEnd = () => {
       this.setState({
         showFrontEnd: true,

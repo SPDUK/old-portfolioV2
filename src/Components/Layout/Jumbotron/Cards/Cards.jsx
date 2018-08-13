@@ -316,4 +316,5 @@ class SimpleCard extends Component {
     );
   }
 }
+
 export default withStyles(styles)(SimpleCard);

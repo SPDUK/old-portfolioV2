@@ -21,7 +21,7 @@ const styles = {
     justifyContent: 'flex-end'
   },
   cardDescription: {
-    minHeight: '72px',
+    minHeight: '72px'
   }
 };
 

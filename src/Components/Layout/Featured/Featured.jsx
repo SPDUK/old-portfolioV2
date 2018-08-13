@@ -41,7 +41,7 @@ function Featured(props) {
                 image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1534089834/Portfolio/blogsonrails-Macbook.jpg"
                 title="Blogs on Rails"
                 link="https://spduk-rails-blog.herokuapp.com/"
-                description="A full stack Ruby on Rails blogging platform using SQL"
+                description="A full stack CRUD app including search, join tables and authentication with admin rights, made with Ruby on Rails using SQLite database."
               />
             </Grid>
             <Grid item md={6} xs={12}>
@@ -49,7 +49,7 @@ function Featured(props) {
                 image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1532426260/Portfolio/quickprojectsmac.jpg"
                 title="Quick Projects"
                 link="https://spduk.github.io/Quick-Projects/#/"
-                description="Small things I make will end up here, things like the classic snake game to HTML canvas manipulation."
+                description="A collection of quick things I've made that aren't big enough to deserve their own site, so I put them all in one, giving each project it's own page."
               />
             </Grid>
           </Grid>

@@ -40,7 +40,7 @@ class Learned extends Component {
     return (
       <div className="learned" style={{ marginTop: 100 }}>
         <div className="container">
-          <h1>Other Projects I've done</h1>
+          <h1>Other Projects I've Made</h1>
           <Button onClick={showFrontEnd}>Front-End</Button>
           <Button onClick={showFullStack}>Full-Stack</Button>
           <Button onClick={showAllStacks}>Show All</Button>
@@ -101,6 +101,14 @@ class Learned extends Component {
               skills="React, Redux, Express, MongoDB"
               date="May 2018"
               link="https://github.com/SPDUK/devconnector"
+            />
+          ) : null}
+          {this.state.showFullStack ? (
+            <LearnedItem
+              title="Blogs on rails"
+              skills="Ruby, Rails, SQL"
+              date="Aug 2018"
+              link="https://github.com/SPDUK/rails-blog"
             />
           ) : null}
         </div>

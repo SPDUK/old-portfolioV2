@@ -22,6 +22,14 @@ function Featured(props) {
           <Grid className={classes.root} container spacing={24}>
             <Grid item md={6} xs={12}>
               <FeaturedProject
+                image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1535139951/Portfolio/CryptoMacbook.jpg"
+                title="CryptoTracker"
+                link="https://spduk-crypto.herokuapp.com/"
+                description="A full stack app, uses coinmarketcap API to get the latest bitcoin prices. Made with React and Ruby on Rails using PostgreSQL"
+              />
+            </Grid>
+            <Grid item md={6} xs={12}>
+              <FeaturedProject
                 image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1527838905/dgdmac.jpg"
                 title="Dance Gavin Dance"
                 link="https://spduk.github.io/dgd/"
@@ -33,15 +41,7 @@ function Featured(props) {
                 image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1529670340/Portfolio/fira-minified.jpg"
                 title="Startpage"
                 link="https://startpage.fira.app"
-                description="A custom full-stack startpage with todos, weather, clock, bookmarks and a searchbar that has multiple options. Made with React and Node.js using MongoDB."
-              />
-            </Grid>
-            <Grid item md={6} xs={12}>
-              <FeaturedProject
-                image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1534089834/Portfolio/blogsonrails-Macbook.jpg"
-                title="Blogs on Rails"
-                link="https://spduk-rails-blog.herokuapp.com/"
-                description="A full stack CRUD app including search, join tables and authentication with admin rights, made with Ruby on Rails using SQLite database."
+                description="A full-stack startpage with todos, weather, clock, bookmarks and a searchbar that has multiple options. Made with React and Node.js using MongoDB."
               />
             </Grid>
             <Grid item md={6} xs={12}>

@@ -18,7 +18,7 @@ const styles = {
   },
   cardbutton: {
     display: 'flex',
-    justifyContent: 'flex-end'
+    justifyContent: 'space-between'
   },
   cardDescription: {
     minHeight: '72px'
@@ -26,7 +26,7 @@ const styles = {
 };
 
 function Featured(props) {
-  const { classes, image, title, link, description } = props;
+  const { classes, image, title, link, description, code } = props;
   return (
     <div>
       <Card className={classes.card}>
@@ -47,6 +47,11 @@ function Featured(props) {
           </Typography>
         </CardContent>
         <CardActions className={classes.cardbutton}>
+          <a href={code}>
+            <Button size="medium" className="card-button">
+              View Code
+            </Button>
+          </a>
           <a href={link}>
             <Button size="medium" className="card-button">
               Visit Site <i className="fas fa-arrow-right card-arrow" />

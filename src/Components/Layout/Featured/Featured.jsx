@@ -24,6 +24,7 @@ function Featured(props) {
               <FeaturedProject
                 image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1535139951/Portfolio/CryptoMacbook.jpg"
                 title="CryptoTracker"
+                code="https://github.com/SPDUK/Crypto"
                 link="https://spduk-crypto.herokuapp.com/"
                 description="A full stack app, uses coinmarketcap API to get the latest bitcoin prices. Made with React and Ruby on Rails using PostgreSQL"
               />
@@ -32,6 +33,7 @@ function Featured(props) {
               <FeaturedProject
                 image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1527838905/dgdmac.jpg"
                 title="Dance Gavin Dance"
+                code="https://github.com/SPDUK/dgd"
                 link="https://spduk.github.io/dgd/"
                 description="Fansite for the band dance gavin dance, made with React and custom CSS"
               />
@@ -40,6 +42,7 @@ function Featured(props) {
               <FeaturedProject
                 image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1529670340/Portfolio/fira-minified.jpg"
                 title="Startpage"
+                code="https://github.com/SPDUK/startpage"
                 link="https://startpage.fira.app"
                 description="A full-stack startpage with todos, weather, clock, bookmarks and a searchbar that has multiple options. Made with React and Node.js using MongoDB."
               />
@@ -48,6 +51,7 @@ function Featured(props) {
               <FeaturedProject
                 image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1532426260/Portfolio/quickprojectsmac.jpg"
                 title="Quick Projects"
+                code="https://github.com/SPDUK/Quick-Projects"
                 link="https://spduk.github.io/Quick-Projects/#/"
                 description="A collection of quick things I've made that aren't big enough to deserve their own site, so I put them all in one, giving each project it's own page."
               />

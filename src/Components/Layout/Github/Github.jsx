@@ -4,8 +4,8 @@ import ChartistGraph from 'react-chartist';
 export default class Github extends Component {
   render() {
     const lineChartData = {
-      labels: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
-      series: [[151, 126, 264, 338, 291, 280]]
+      labels: ['Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
+      series: [[126, 264, 338, 291, 280, 390]]
     };
     const lineChartOptions = {
       low: 0,

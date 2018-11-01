@@ -27,6 +27,10 @@ const styles = theme => ({
     height: 220,
     display: 'block'
   },
+  cardLink: {
+    color: '#ffff',
+    fontWeight: 600
+  },
   headline: {
     fontSize: 18,
     marginBottom: 3
@@ -259,7 +263,11 @@ class SimpleCard extends Component {
               </Typography>
               <Divider className={classes.divider} />
               <Typography style={{ textAlign: 'center' }} color="primary" variant="subheading">
-                I am a self-taught React Developer, with an interest in functional programming.
+                I am a self-taught React Developer, with an interest in functional programming. Currently learning{' '}
+                <a className={classes.cardLink} href="https://elixir-lang.org/">
+                  {' '}
+                  Elixir{' '}
+                </a>
               </Typography>
             </CardContent>
             <CardActions style={{ display: 'flex', justifyContent: 'flex-end' }}>

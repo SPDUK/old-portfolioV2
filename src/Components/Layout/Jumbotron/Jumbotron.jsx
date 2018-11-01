@@ -11,7 +11,7 @@ class Jumbotron extends Component {
           <div className="container">
             <div className="jumbo-text">
               <h1>
-                I'm Steve, a JavaScript <a href="https://github.com/SPDUK">Developer</a>, <br />
+                I'm Steve, a Full Stack <a href="https://github.com/SPDUK">Developer</a>, <br />
                 Currently living in Cambridgeshire, England
               </h1>
             </div>

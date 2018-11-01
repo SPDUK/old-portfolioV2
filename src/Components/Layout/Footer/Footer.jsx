@@ -14,6 +14,9 @@ const Footer = () => (
         <a href="https://github.com/SPDUK">Github</a>
       </Typography>
       <Typography variant="subheading">
+        <a href="https://gitlab.com/SP0">Gitlab</a>
+      </Typography>
+      <Typography variant="subheading">
         <a href="mailto:spdevuk@gmail.com">spdevuk@gmail.com</a>
       </Typography>
     </div>

@@ -17,12 +17,7 @@ export default class Github extends Component {
     return (
       <div className="container github">
         <h1>Git Commits in the last 6 months</h1>
-        <ChartistGraph
-          className="ct-major-twelfth"
-          data={lineChartData}
-          options={lineChartOptions}
-          type="Line"
-        />
+        <ChartistGraph className="ct-major-twelfth" data={lineChartData} options={lineChartOptions} type="Line" />
       </div>
     );
   }

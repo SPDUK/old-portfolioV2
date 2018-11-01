@@ -43,10 +43,7 @@ class Navbar extends Component {
           <Button onClick={this.scrollToProjects} className="nav-menu-item">
             Projects
           </Button>
-          <Button
-            onClick={this.scrollToExtraProjects}
-            className="nav-menu-item"
-          >
+          <Button onClick={this.scrollToExtraProjects} className="nav-menu-item">
             Extra Projects
           </Button>
           <a href="https://github.com/SPDUK">

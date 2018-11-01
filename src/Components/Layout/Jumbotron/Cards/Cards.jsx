@@ -137,22 +137,13 @@ class SimpleCard extends Component {
             onClose={this.handleClose}
           >
             <div style={getModalStyle()} className={classes.paper}>
-              <Typography
-                className="modal-item"
-                variant="title"
-                id="modal-title"
-              >
+              <Typography className="modal-item" variant="title" id="modal-title">
                 <i className="fas fa-envelope" /> Email:
                 <a href="mailto:spdevuk@gmail.com">spdevuk@gmail.com</a>
               </Typography>
               <Divider />
-              <Typography
-                className="modal-item"
-                variant="title"
-                id="modal-title"
-              >
-                <i className="fab fa-github" /> Github:{' '}
-                <a href="https://github.com/SPDUK">SPDUK</a>
+              <Typography className="modal-item" variant="title" id="modal-title">
+                <i className="fab fa-github" /> Github: <a href="https://github.com/SPDUK">SPDUK</a>
               </Typography>
             </div>
           </Modal>
@@ -167,12 +158,7 @@ class SimpleCard extends Component {
               </Typography>
               <Divider className={classes.divider} />
               <div className="card-item">
-                <Typography
-                  className={classes.headline}
-                  variant="headline"
-                  component="h2"
-                  style={{ display: 'flex' }}
-                >
+                <Typography className={classes.headline} variant="headline" component="h2" style={{ display: 'flex' }}>
                   <i
                     style={{
                       fontSize: 24,
@@ -189,12 +175,7 @@ class SimpleCard extends Component {
                 </Typography>
               </div>
               <div className="card-item">
-                <Typography
-                  className={classes.headline}
-                  variant="headline"
-                  component="h2"
-                  style={{ display: 'flex' }}
-                >
+                <Typography className={classes.headline} variant="headline" component="h2" style={{ display: 'flex' }}>
                   <i
                     style={{
                       fontSize: 24,
@@ -211,12 +192,7 @@ class SimpleCard extends Component {
                 </Typography>
               </div>
               <div className="card-item">
-                <Typography
-                  className={classes.headline}
-                  variant="headline"
-                  component="h2"
-                  style={{ display: 'flex' }}
-                >
+                <Typography className={classes.headline} variant="headline" component="h2" style={{ display: 'flex' }}>
                   <i
                     style={{
                       fontSize: 24,
@@ -258,12 +234,7 @@ class SimpleCard extends Component {
                 </Typography>
               </div>
               <div className="card-item">
-                <Typography
-                  className={classes.headline}
-                  variant="headline"
-                  component="h2"
-                  style={{ display: 'flex' }}
-                >
+                <Typography className={classes.headline} variant="headline" component="h2" style={{ display: 'flex' }}>
                   <i
                     style={{
                       fontSize: 24,
@@ -287,18 +258,11 @@ class SimpleCard extends Component {
                 Who I am
               </Typography>
               <Divider className={classes.divider} />
-              <Typography
-                style={{ textAlign: 'center' }}
-                color="primary"
-                variant="subheading"
-              >
-                I am a self-taught React Developer, with an interest in
-                functional programming.
+              <Typography style={{ textAlign: 'center' }} color="primary" variant="subheading">
+                I am a self-taught React Developer, with an interest in functional programming.
               </Typography>
             </CardContent>
-            <CardActions
-              style={{ display: 'flex', justifyContent: 'flex-end' }}
-            >
+            <CardActions style={{ display: 'flex', justifyContent: 'flex-end' }}>
               <Button
                 id="card-button"
                 variant="raised"
@@ -306,7 +270,7 @@ class SimpleCard extends Component {
                 className={classes.button}
                 onClick={this.handleOpen}
               >
-                <a style={{ color: 'black' }}>Contact Me</a>
+                <span style={{ color: 'black' }}>Contact Me</span>
                 <i className="fas fa-arrow-right card-arrow" />
               </Button>
             </CardActions>

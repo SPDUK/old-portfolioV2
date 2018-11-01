@@ -12,7 +12,7 @@
     "react-chartist": "^0.13.1",
     "react-dom": "^16.4.0",
     "react-lazyload": "^2.3.0",
-    "react-scripts": "1.1.4",
+    "react-scripts": "2.0.3",
     "react-scroll": "^1.7.9"
   },
   "scripts": {
@@ -28,18 +28,22 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "babel-eslint": "7.2.3",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "16.1.0",
-    "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-react": "^7.8.2",
-    "eslint-plugin-standard": "^3.1.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0",
     "gh-pages": "^1.2.0",
-    "prettier": "^1.13.2"
-  }
+    "prettier": "^1.14.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

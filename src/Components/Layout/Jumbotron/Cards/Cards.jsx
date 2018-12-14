@@ -149,6 +149,10 @@ class SimpleCard extends Component {
               <Typography className="modal-item" variant="title" id="modal-title">
                 <i className="fab fa-github" /> Github: <a href="https://github.com/SPDUK">SPDUK</a>
               </Typography>
+              <Divider />
+              <Typography className="modal-item" variant="title" id="modal-title">
+                <i className="fab fa-gitlab" /> Gitlab: <a href="https://gitlab.com/SP0">SP0</a>
+              </Typography>
             </div>
           </Modal>
         ) : (

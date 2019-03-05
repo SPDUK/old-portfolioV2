@@ -22,7 +22,7 @@ function Featured(props) {
           <Grid className={classes.root} container spacing={24}>
             <Grid item md={6} xs={12}>
               <FeaturedProject
-                image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1544748283/Portfolio/poeimac.jpg"
+                image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1544748283/Portfolio/poe.jpg"
                 title="Poewishlist"
                 code="https://poewishlist.xyz/about"
                 link="https://poewishlist.xyz"
@@ -31,7 +31,7 @@ function Featured(props) {
             </Grid>
             <Grid item md={6} xs={12}>
               <FeaturedProject
-                image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1535139951/Portfolio/CryptoMacbook.jpg"
+                image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1535139951/Portfolio/crypto.jpg"
                 title="CryptoTracker"
                 code="https://github.com/SPDUK/Crypto"
                 link="https://spduk-crypto.herokuapp.com/"
@@ -40,7 +40,7 @@ function Featured(props) {
             </Grid>
             <Grid item md={6} xs={12}>
               <FeaturedProject
-                image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1527838905/dgdmac.jpg"
+                image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1551743902/Portfolio/dgd_2.jpg"
                 title="Dance Gavin Dance"
                 code="https://github.com/SPDUK/dgd"
                 link="https://spduk.github.io/dgd/"
@@ -49,7 +49,7 @@ function Featured(props) {
             </Grid>
             <Grid item md={6} xs={12}>
               <FeaturedProject
-                image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1529670340/Portfolio/fira-minified.jpg"
+                image="https://res.cloudinary.com/dmjolhdaq/image/upload/v1529670340/Portfolio/startpage.jpg"
                 title="Startpage"
                 code="https://github.com/SPDUK/startpage"
                 link="https://startpage-spduk.herokuapp.com/"
